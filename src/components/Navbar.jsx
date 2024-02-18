@@ -40,7 +40,7 @@ const Navbar = () => {
             to={"/blocks"}
             className="flex items-center hover:text-blue-500 transition-colors"
           >
-            Account
+            Blocks
           </Link>
         </Typography>
         <Typography
