@@ -62,7 +62,7 @@ const Navbar = () => {
 
   return (
     <nav className="mx-auto bg-blue-gray-900 ">
-      <div className="flex items-center justify-between container mx-auto">
+      <div className="flex items-center justify-between container mx-auto px-5 lg:px-0">
         <Link to={'/'}>
           <Typography
             as="a"
@@ -79,14 +79,14 @@ const Navbar = () => {
         <div></div>
         <IconButton
           variant="text"
-          className="ml-auto h-6 w-6 text-inherit hover:bg-transparent focus:bg-transparent active:bg-transparent lg:hidden"
+          className="ml-auto h-8 w-8 text-inherit hover:bg-transparent focus:bg-transparent active:bg-transparent lg:hidden"
           ripple={false}
           onClick={() => setOpenNav(!openNav)}
         >
           {openNav ? (
-            <XMarkIcon className="h-6 w-6" strokeWidth={2} />
+            <XMarkIcon className="h-8 w-8 text-white" strokeWidth={2} />
           ) : (
-            <Bars3Icon className="h-6 w-6" strokeWidth={2} />
+            <Bars3Icon className="h-8 w-8 text-white" strokeWidth={2} />
           )}
         </IconButton>
       </div>
