@@ -4,23 +4,46 @@ import { MdMenuBook } from "react-icons/md";
 import { RiSettings4Fill } from "react-icons/ri";
 import { useState } from "react";
 import { Link } from "react-router-dom";
-const componentsItems = ['Avatar', 'Accordion', 'Button', 'Carousel', 'Card', 'Form']
+
+const componentsItems = [
+  "Avatar",
+  "Accordion",
+  "Button",
+  "Carousel",
+  "Checkbox",
+  "Card",
+  "Form",
+  "Footer",
+  "Input",
+];
+
 const Sidebar = () => {
-  const [docOpen, seDocOpen] = useState(true);
+  const [docOpen, setDocOpen] = useState(false);
   const [componentOpen, setComponentOpen] = useState(true);
 
+  const handleComponentNavOpen = () => {
+    setComponentOpen(!componentOpen);
+  };
+
+  const handleDocNavOpen = () => {
+    setDocOpen(!docOpen);
+  };
+const handleLink = e=> {
+    e.stopPropagation();
+}
   return (
     <div
-  
-      className={`sidebar fixed z-40  w-[300px] px-6 select-none block transition-all overflow-y-scroll`}
+      className={`components-sidebar fixed top-16  z-[80]  w-[300px] select-none px-6 block transition-all  overflow-y-scroll 
+      `}
     >
-      <div className="group flex h-full w-full flex-col space-y-2 ">
+      <div className=" flex h-full w-full flex-col space-y-2  ">
         {/* docs container */}
         <div className="flex flex-col px-4 pt-10 text-lg text-white ">
-          <div onClick={() => seDocOpen(!docOpen)} className="text-2xl">
-            <div className="flex justify-between items-center border px-4 py-2 rounded-md overflow-hidden">
+          <div onClick={handleDocNavOpen} className="text-2xl">
+            <div className="flex justify-between items-center border px-4 py-2 rounded-md ">
               <div className="flex items-center ">
-                <MdMenuBook className="mr-3 text-3xl" /> <span>Docs</span>
+                <MdMenuBook className="mr-3 text-xl" />{" "}
+                <span className="text-lg">Docs</span>
               </div>
               <FaAngleDown
                 className={`transition-all duration-300 ease-in-out text-yellow-900  ${
@@ -55,14 +78,15 @@ const Sidebar = () => {
         </div>
         {/* components container */}
         <div className="flex flex-col px-4 text-lg text-white ">
-          <div onClick={() => setComponentOpen(!componentOpen)} className="text-2xl">
+          <div onClick={handleComponentNavOpen} className="text-2xl">
             <div className="flex justify-between items-center border px-4 py-2 rounded-md overflow-hidden">
               <div className="flex items-center ">
-                <RiSettings4Fill className="mr-3 text-3xl" /> <span>Docs</span>
+                <RiSettings4Fill className="mr-3 text-xl" />{" "}
+                <span className="text-lg">Components</span>
               </div>
               <FaAngleDown
                 className={`transition-all duration-300 ease-in-out text-yellow-900  ${
-                    componentOpen ? "rotate-180" : "rotate-0"
+                  componentOpen ? "rotate-180" : "rotate-0"
                 }`}
               />
             </div>
@@ -75,16 +99,16 @@ const Sidebar = () => {
               } `}
             >
               <div className="my-2 flex flex-col space-y-1 overflow-hidden border-l border-yellow-900 text-lg px-4">
-                {
-                    componentsItems.map((ItemName,i)=> <Link key={i}
-                        className="px-4 py-2 text-white duration-300 rounded-md hover:bg-yellow-900 hover:text-white"
-                        to={ItemName.toLocaleLowerCase()}
-                      >
-                         {ItemName}
-                      </Link>)
-                }
-                
-              
+                {componentsItems.map((ItemName, i) => (
+                  <Link
+                  onClick={handleLink}
+                    key={i}
+                    className="px-4 py-2 text-white duration-300 rounded-md hover:bg-yellow-900 hover:text-white"
+                    to={ItemName.toLocaleLowerCase()}
+                  >
+                    {ItemName}
+                  </Link>
+                ))}
               </div>
             </div>
           </div>

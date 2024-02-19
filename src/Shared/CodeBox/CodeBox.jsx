@@ -1,6 +1,6 @@
 
 
-const Components = () => {
+const CodeBox = () => {
     return (
         <div>
             
@@ -8,4 +8,4 @@ const Components = () => {
     );
 };
 
-export default Components;
+export default CodeBox;
