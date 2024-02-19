@@ -3,7 +3,7 @@ import { FaAngleDown } from "react-icons/fa";
 import { MdMenuBook } from "react-icons/md";
 import { RiSettings4Fill } from "react-icons/ri";
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const componentsItems = [
   "Avatar",
@@ -100,14 +100,14 @@ const handleLink = e=> {
             >
               <div className="my-2 flex flex-col space-y-1 overflow-hidden border-l border-yellow-900 text-lg px-4">
                 {componentsItems.map((ItemName, i) => (
-                  <Link
+                  <NavLink
                   onClick={handleLink}
                     key={i}
                     className="px-4 py-2 text-white duration-300 rounded-md hover:bg-yellow-900 hover:text-white"
                     to={ItemName.toLocaleLowerCase()}
                   >
                     {ItemName}
-                  </Link>
+                  </NavLink>
                 ))}
               </div>
             </div>

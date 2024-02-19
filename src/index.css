@@ -13,6 +13,11 @@ body::-webkit-scrollbar {
   display: none;
 }
 
+.active {
+  background-color: rgb(245, 127 ,23);
+}
+
+
 .components-sidebar,
 .layout {
   height: calc(100vh - 78px);
