@@ -12,19 +12,24 @@ body::-webkit-scrollbar {
   background-color: rgb(17 24 39);
 }
 
-.sidebar::-webkit-scrollbar {
-  width: 7px;
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
 }
 
-.sidebar::-webkit-scrollbar-thumb {
-  opacity: 0;
-  border-radius: 100px;
-  transition: opacity 0.8s ease;
-
+/* Track */
+::-webkit-scrollbar-track {
+  background: #888;
+  border-radius: 5px;
 }
 
-.sidebar:hover::-webkit-scrollbar-thumb {
-  background: #36a9fc2f;
-  border-radius: 100px;
-  opacity: 1;
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #000;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }
