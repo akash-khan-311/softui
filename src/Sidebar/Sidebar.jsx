@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import { FaAngleDown } from "react-icons/fa";
 import { MdMenuBook } from "react-icons/md";
 import { useState } from "react";
@@ -7,16 +8,23 @@ const Sidebar = () => {
   const [componentOpen, setComponentOpen] = useState(true);
 
   return (
-    <div className=" fixed z-40  w-[300px]  select-none overflow-y-scroll">
-      <div className="group flex h-full w-full flex-col space-y-6">
+    <div
+  
+      className={`sidebar fixed z-40  w-[300px] px-6 select-none block transition-all overflow-y-scroll`}
+    >
+      <div className="group flex h-full w-full flex-col space-y-6  ">
         {/* components container */}
         <div className="flex flex-col px-4 pt-10 text-lg text-white ">
           <div onClick={() => seDocOpen(!docOpen)} className="text-2xl">
-            <div className="flex justify-between items-center border px-4 py-2 rounded-md">
+            <div className="flex justify-between items-center border px-4 py-2 rounded-md overflow-hidden">
               <div className="flex items-center ">
                 <MdMenuBook className="mr-3 text-3xl" /> <span>Docs</span>
               </div>
-              <FaAngleDown className={`transition-all duration-300 ease-in-out  ${docOpen ? 'rotate-180' : 'rotate-0'}`}/>
+              <FaAngleDown
+                className={`transition-all duration-300 ease-in-out text-yellow-900  ${
+                  docOpen ? "rotate-180" : "rotate-0"
+                }`}
+              />
             </div>
 
             <div
@@ -45,7 +53,6 @@ const Sidebar = () => {
         </div>
       </div>
     </div>
-   
   );
 };
 
