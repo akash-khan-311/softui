@@ -1,7 +1,9 @@
+import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
+import { Collapse, IconButton, Typography } from "@material-tailwind/react";
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import { Collapse, Typography, IconButton } from "@material-tailwind/react";
-import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
+import logo from "../assets/react.svg";
+
 const Navbar = () => {
   const [openNav, setOpenNav] = useState(false);
   const handleWindowResize = () =>
@@ -63,14 +65,14 @@ const Navbar = () => {
   return (
     <nav className="mx-auto bg-blue-gray-900 ">
       <div className="flex items-center justify-between container mx-auto px-5 lg:px-0">
-        <Link to={'/'}>
+        <Link to={"/"}>
           <Typography
             as="a"
             color="white"
             variant="h3"
-            className="mr-4 cursor-pointer py-1.5"
+            className="cursor-pointer py-1.5 w-72"
           >
-            Aero UI
+            <img src={logo} alt="Aero UI" />
           </Typography>
         </Link>
         <div className="hidden lg:block">
