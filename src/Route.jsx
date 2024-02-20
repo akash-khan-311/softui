@@ -12,6 +12,7 @@ import Checkbox from "./UIcomponents/CheckBox/Checkbox";
 import Footer from "./UIcomponents/Footer/Footer";
 import Form from "./UIcomponents/Form/Form";
 import Input from "./UIcomponents/Input/Input";
+import Modal from "./UIcomponents/Modal/Modal";
 
 const Route = createBrowserRouter([
   { path: "*", element: <NotFound /> },
@@ -36,6 +37,7 @@ const Route = createBrowserRouter([
       { path: "Footer", element: <Footer /> },
       { path: "input", element: <Input /> },
       { path: "slider", element: <NotFound /> },
+      { path: "modal", element: <Modal /> },
     ],
   },
 ]);

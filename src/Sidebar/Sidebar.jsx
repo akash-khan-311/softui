@@ -16,6 +16,7 @@ const componentsItems = [
   "Footer",
   "Input",
   "Slider",
+  "Modal",
 ];
 
 const Sidebar = () => {
