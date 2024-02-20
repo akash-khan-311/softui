@@ -24,7 +24,7 @@ const Navbar = () => {
           className="p-1 font-medium"
         >
           <Link
-            to={"/components"}
+            to={"/components/avatar"}
             className="flex items-center hover:text-blue-500 transition-colors"
           >
             Components

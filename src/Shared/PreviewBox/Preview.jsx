@@ -2,7 +2,7 @@
 
 const Preview = ({children}) => {
     return (
-        <div>
+        <div className="bg-transparent">
             {children}
         </div>
     );
