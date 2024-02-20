@@ -22,7 +22,7 @@ const CodeBox = ({children, stringCode,text}) => {
         {
             item: 1,
             name: 'JSX',
-            component: <JSXCode stringCode={stringCode}></JSXCode>
+        component: <JSXCode stringCode={stringCode}></JSXCode>
         }
     ];
     return (

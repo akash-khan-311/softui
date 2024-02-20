@@ -1,8 +1,8 @@
 /* eslint-disable no-unused-vars */
+import { useState } from "react";
 import { FaAngleDown } from "react-icons/fa";
 import { MdMenuBook } from "react-icons/md";
 import { RiSettings4Fill } from "react-icons/ri";
-import { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 
 const componentsItems = [
@@ -15,6 +15,7 @@ const componentsItems = [
   "Form",
   "Footer",
   "Input",
+  "Slider",
 ];
 
 const Sidebar = () => {
@@ -28,9 +29,9 @@ const Sidebar = () => {
   const handleDocNavOpen = () => {
     setDocOpen(!docOpen);
   };
-const handleLink = e=> {
+  const handleLink = (e) => {
     e.stopPropagation();
-}
+  };
   return (
     <div
       className={`components-sidebar fixed top-16  z-[80]  w-[300px] select-none px-6 block transition-all  overflow-y-scroll 
@@ -101,7 +102,7 @@ const handleLink = e=> {
               <div className="my-2 flex flex-col space-y-1 overflow-hidden border-l border-yellow-900 text-lg px-4">
                 {componentsItems.map((ItemName, i) => (
                   <NavLink
-                  onClick={handleLink}
+                    onClick={handleLink}
                     key={i}
                     className="px-4 py-2 text-white duration-300 rounded-md hover:bg-yellow-900 hover:text-white"
                     to={ItemName.toLocaleLowerCase()}
