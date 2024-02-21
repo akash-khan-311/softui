@@ -2,7 +2,7 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { Collapse, IconButton, Typography } from "@material-tailwind/react";
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import logo from "../assets/react.svg";
+import logo from "../assets/aeroui.svg";
 
 const Navbar = () => {
   const [openNav, setOpenNav] = useState(false);
