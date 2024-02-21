@@ -1,6 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import Form1 from "../../components/App/Forms/Form1";
-import Form2 from "../../components/App/Forms/Form2";
+
 
 const Form = () => {
   return (
@@ -11,8 +11,7 @@ const Form = () => {
       {/* Default Login Form */}
       <Form1 />
       {/*Login Form With Social Button  */}
-      
-      <Form2 />
+     
     </div>
   );
 };
