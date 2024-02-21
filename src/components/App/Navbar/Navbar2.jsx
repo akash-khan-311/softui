@@ -4,7 +4,7 @@ const Navbar2 = () => {
   return (
     <>
       <CodeBox
-        text={"Basic Or Default Navbar"}
+        text={"Between Nvbar"}
         stringCode={`<nav className="px-10 py-4 bg-red-50 ">
   <div className="flex justify-between gap-10 ">
     {/* logo */}
