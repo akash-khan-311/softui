@@ -17,6 +17,7 @@ const componentsItems = [
   "Input",
   "Slider",
   "Modal",
+  "Navbar",
 ];
 
 const Sidebar = () => {
