@@ -3,7 +3,7 @@ import CodeBox from "../../../Shared/CodeBox/CodeBox";
 const Navbar1 = () => {
   return (
     <>
-      <CodeBox stringCode={`<nav className="px-10 py-4 bg-red-50 ">
+      <CodeBox text={'Basic Or Default Navbar'} stringCode={`<nav className="px-10 py-4 bg-red-50 ">
   <div className="flex justify-start gap-10 ">
     {/* logo */}
     <a href=""><h1 className="text-4xl font-bold text-gray-800">Aero UI</h1></a>
