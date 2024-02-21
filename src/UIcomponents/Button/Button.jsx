@@ -85,14 +85,53 @@ const Button = () => {
           </button>
         </div>
       </CodeBox>
-      <CodeBox stringCode={`<button className="relative flex items-center justify-center gap-2 px-5 py-2 bg-blue-600 border-2 border-white rounded-full shadow-md text-white font-bold text-base transition-all duration-300 ease-in-out hover:transform hover:scale-105 hover:border-opacity-0"><span>Apply Now</span><svg fill="currentColor" viewBox="0 0 24 24" className="w-6 h-6"><path clipRule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm4.28 10.28a.75.75 0 000-1.06l-3-3a.75.75 0 10-1.06 1.06l1.72 1.72H8.25a.75.75 0 000 1.5h5.69l-1.72 1.72a.75.75 0 101.06 1.06l3-3z" fillRule="evenodd"/></svg></button>
+      <CodeBox
+        stringCode={`<button className="relative flex items-center justify-center gap-2 px-5 py-2 bg-blue-600 border-2 border-white rounded-full shadow-md text-white font-bold text-base transition-all duration-300 ease-in-out hover:transform hover:scale-105 hover:border-opacity-0"><span>Apply Now</span><svg fill="currentColor" viewBox="0 0 24 24" className="w-6 h-6"><path clipRule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm4.28 10.28a.75.75 0 000-1.06l-3-3a.75.75 0 10-1.06 1.06l1.72 1.72H8.25a.75.75 0 000 1.5h5.69l-1.72 1.72a.75.75 0 101.06 1.06l3-3z" fillRule="evenodd"/></svg></button>
 <button className="inline-block px-6 py-3 mr-3 font-bold text-center text-white uppercase align-middle transition-all rounded-lg cursor-pointer bg-gradient-to-tl from-purple-700 to-pink-500 leading-pro text-xs ease-soft-in tracking-tight-soft shadow-soft-md bg-150 bg-x-25 hover:scale-110 hover:rotate-2 hover:bg-pink-700 hover:text-pink-200 hover:shadow-lg active:opacity-85">Button</button>
-<button className="hover:brightness-110  hover:animate-pulse font-bold py-2 px-6 rounded-full bg-indigo-500 shadow-lg shadow-indigo-500/50 text-white">Hover on me</button>`}>
+<button className="hover:brightness-110  hover:animate-pulse font-bold py-2 px-6 rounded-full bg-indigo-500 shadow-lg shadow-indigo-500/50 text-white">Hover on me</button>`}
+      >
         <div className="flex flex-wrap gap-4 justify-evenly items-center ">
-        <button className="relative flex items-center justify-center gap-2 px-5 py-2 bg-blue-600 border-2 border-white rounded-full shadow-md text-white font-bold text-base transition-all duration-300 ease-in-out hover:transform hover:scale-105 hover:border-opacity-0"><span>Apply Now</span><svg fill="currentColor" viewBox="0 0 24 24" className="w-6 h-6"><path clipRule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm4.28 10.28a.75.75 0 000-1.06l-3-3a.75.75 0 10-1.06 1.06l1.72 1.72H8.25a.75.75 0 000 1.5h5.69l-1.72 1.72a.75.75 0 101.06 1.06l3-3z" fillRule="evenodd"/></svg></button>
-<button className="inline-block px-6 py-3 mr-3 font-bold text-center text-white uppercase align-middle transition-all rounded-lg cursor-pointer bg-gradient-to-tl from-purple-700 to-pink-500 leading-pro text-xs ease-soft-in tracking-tight-soft shadow-soft-md bg-150 bg-x-25 hover:scale-110 hover:rotate-2 hover:bg-pink-700 hover:text-pink-200 hover:shadow-lg active:opacity-85">Button</button>
-<button className="hover:brightness-110  hover:animate-pulse font-bold py-2 px-6 rounded-full bg-indigo-500 shadow-lg shadow-indigo-500/50 text-white">Hover on me</button>
+          <button className="relative flex items-center justify-center gap-2 px-5 py-2 bg-blue-600 border-2 border-white rounded-full shadow-md text-white font-bold text-base transition-all duration-300 ease-in-out hover:transform hover:scale-105 hover:border-opacity-0">
+            <span>Apply Now</span>
+            <svg fill="currentColor" viewBox="0 0 24 24" className="w-6 h-6">
+              <path
+                clipRule="evenodd"
+                d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm4.28 10.28a.75.75 0 000-1.06l-3-3a.75.75 0 10-1.06 1.06l1.72 1.72H8.25a.75.75 0 000 1.5h5.69l-1.72 1.72a.75.75 0 101.06 1.06l3-3z"
+                fillRule="evenodd"
+              />
+            </svg>
+          </button>
+          <button className="inline-block px-6 py-3 mr-3 font-bold text-center text-white uppercase align-middle transition-all rounded-lg cursor-pointer bg-gradient-to-tl from-purple-700 to-pink-500 leading-pro text-xs ease-soft-in tracking-tight-soft shadow-soft-md bg-150 bg-x-25 hover:scale-110 hover:rotate-2 hover:bg-pink-700 hover:text-pink-200 hover:shadow-lg active:opacity-85">
+            Button
+          </button>
+          <button className="hover:brightness-110  hover:animate-pulse font-bold py-2 px-6 rounded-full bg-indigo-500 shadow-lg shadow-indigo-500/50 text-white">
+            Hover on me
+          </button>
+        </div>
+      </CodeBox>
+      <CodeBox
+        stringCode={`<button className="cursor-pointer rounded-md relative group overflow-hidden border-2 px-8 py-2 border-green-500"><span className="font-bold text-white text-xl relative z-10 group-hover:text-green-500 duration-500">Blink</span><span class="absolute top-0 left-0 w-full bg-green-500 duration-500 group-hover:-translate-x-full h-full"></span><span className="absolute top-0 left-0 w-full bg-green-500 duration-500 group-hover:translate-x-full h-full"></span><span class="absolute top-0 left-0 w-full bg-green-500 duration-500 delay-300 group-hover:-translate-y-full h-full"></span><span className="absolute delay-300 top-0 left-0 w-full bg-green-500 duration-500 group-hover:translate-y-full h-full"></span></button>
+<button className="group group-hover:before:duration-500 group-hover:after:duration-1000 after:duration-500 hover:border-sky-300  duration-500 before:duration-500 hover:duration-500 underline underline-offset-2    hover:after:-right-2 hover:before:top-8 hover:before:right-16 hover:after:scale-150 hover:after:blur-none hover:before:-bottom-8 hover:before:blur-none hover:bg-sky-300 hover:underline hover:underline-offset-4  origin-left hover:decoration-2 hover:text-sky-900 relative bg-sky-800 h-12 w-52 border text-left p-3 text-gray-50 text-base font-bold rounded-lg  overflow-hidden  before:absolute before:w-12 before:h-12 before:content[''] before:right-1 before:top-1 before:z-10 before:bg-sky-400 before:rounded-full before:blur-lg  after:absolute after:z-10 after:w-20 after:h-20 after:content['']  after:bg-cyan-600 after:right-8 after:top-3 after:rounded-full after:blur">Hover</button>
+<button className="w-[150px] bg-black h-[50px] my-3 flex items-center justify-center rounded-xl cursor-pointer relative overflow-hidden transition-all duration-500 ease-in-out shadow-md hover:scale-105 hover:shadow-lg before:absolute before:top-0 before:-left-full before:w-full before:h-full before:bg-gradient-to-r before:from-[#009b49] before:to-[rgb(105,184,141)] before:transition-all before:duration-500 before:ease-in-out before:z-[-1] before:rounded-xl hover:before:left-0 text-[#fff]">Button</button>
 
+`}
+      >
+        <div className="flex flex-wrap gap-4 justify-evenly items-center">
+          <button className="cursor-pointer rounded-md relative group overflow-hidden border-2 px-8 py-2 border-green-500">
+            <span className="font-bold text-white text-xl relative z-10 group-hover:text-green-500 duration-500">
+              Blink
+            </span>
+            <span className="absolute top-0 left-0 w-full bg-green-500 duration-500 group-hover:-translate-x-full h-full" />
+            <span className="absolute top-0 left-0 w-full bg-green-500 duration-500 group-hover:translate-x-full h-full" />
+            <span className="absolute top-0 left-0 w-full bg-green-500 duration-500 delay-300 group-hover:-translate-y-full h-full" />
+            <span className="absolute delay-300 top-0 left-0 w-full bg-green-500 duration-500 group-hover:translate-y-full h-full" />
+          </button>
+          <button className="group group-hover:before:duration-500 group-hover:after:duration-1000 after:duration-500 hover:border-sky-300  duration-500 before:duration-500 hover:duration-500 underline underline-offset-2    hover:after:-right-2 hover:before:top-8 hover:before:right-16 hover:after:scale-150 hover:after:blur-none hover:before:-bottom-8 hover:before:blur-none hover:bg-sky-300 hover:underline hover:underline-offset-4  origin-left hover:decoration-2 hover:text-sky-900 relative bg-sky-800 h-12 w-52 border text-left p-3 text-gray-50 text-base font-bold rounded-lg  overflow-hidden  before:absolute before:w-12 before:h-12 before:content[''] before:right-1 before:top-1 before:z-10 before:bg-sky-400 before:rounded-full before:blur-lg  after:absolute after:z-10 after:w-20 after:h-20 after:content['']  after:bg-cyan-600 after:right-8 after:top-3 after:rounded-full after:blur">
+            Hover
+          </button>
+          <button className="w-[150px] bg-black h-[50px] my-3 flex items-center justify-center rounded-xl cursor-pointer relative overflow-hidden transition-all duration-500 ease-in-out shadow-md hover:scale-105 hover:shadow-lg before:absolute before:top-0 before:-left-full before:w-full before:h-full before:bg-gradient-to-r before:from-[#009b49] before:to-[rgb(105,184,141)] before:transition-all before:duration-500 before:ease-in-out before:z-[-1] before:rounded-xl hover:before:left-0 text-[#fff]">
+            Button
+          </button>
         </div>
       </CodeBox>
     </div>
