@@ -5,6 +5,7 @@ import Navbar from "../components/Navbar";
 const ComponentsLayout = () => {
   return (
     <>
+      <div className="blur home-blur-right"></div>
       <Navbar />
       <div className="flex">
         <Sidebar />

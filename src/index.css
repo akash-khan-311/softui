@@ -3,20 +3,43 @@
 @tailwind utilities;
 body {
   scroll-behavior: smooth;
-  
+  background-image: radial-gradient(
+    circle farthest-corner at 10% 20%,
+    rgba(70, 43, 25, 1) 10%,
+    rgb(22, 22, 21) 90%
+  );
+  background-attachment: fixed;
 }
 
-:root {
-  background-color: rgb(17 24 39);
+/* .blur {
+  position: absolute;
+  background: rgba(253, 120, 43, 0.69);
+  background-attachment: fixed;
+  border-radius: 50%;
+  filter: blur(250px);
+  -webkit-filter: blur(150px);
+  z-index: -9;
 }
+
+.home-blur-left {
+  width: 15rem;
+  height: 15rem;
+  left: 0;
+}
+.home-blur-right {
+  width: 30rem;
+  height: 15rem;
+  bottom: 0;
+  right: 0;
+} */
+
 body::-webkit-scrollbar {
   display: none;
 }
 
 .active {
-  background-color: rgb(245, 127 ,23);
+  background-color: rgb(245, 127, 23);
 }
-
 
 .components-sidebar,
 .layout {
@@ -28,12 +51,12 @@ body::-webkit-scrollbar {
 }
 
 .layout::-webkit-scrollbar-thumb {
-  background-color: rgb(245, 127 ,23);
+  background-color: rgb(245, 127, 23);
   border-radius: 100px;
 }
 
 .layout::-webkit-scrollbar-track {
-  background-color: rgb(245, 127 ,23);
+  background-color: rgb(245, 127, 23);
 }
 
 .components-sidebar::-webkit-scrollbar {
@@ -47,7 +70,7 @@ body::-webkit-scrollbar {
 }
 
 .components-sidebar:hover::-webkit-scrollbar-thumb {
-  background-color: rgb(245, 127 ,23);
+  background-color: rgb(245, 127, 23);
   border-radius: 100px;
   opacity: 1;
 }
