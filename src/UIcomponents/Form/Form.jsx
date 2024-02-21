@@ -11,6 +11,7 @@ const Form = () => {
       {/* Default Login Form */}
       <Form1 />
       {/*Login Form With Social Button  */}
+      
       <Form2 />
     </div>
   );
