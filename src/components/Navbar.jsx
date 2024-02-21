@@ -63,7 +63,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="mx-auto fixed w-full  border-b-2 navbar border-orange-400 z-[600]">
+    <nav className="mx-auto  w-full  border-b-2 navbar border-orange-400 z-[600]">
       <div className="flex items-center justify-between container mx-auto px-5 lg:px-0">
         <Link to={"/"}>
           <Typography
