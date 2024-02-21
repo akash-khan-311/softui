@@ -6,7 +6,17 @@ body {
   background-image: radial-gradient(
     circle farthest-corner at 10% 20%,
     rgba(70, 43, 25, 1) 10%,
-    rgb(22, 22, 21) 90%
+    rgb(24, 14, 13) 90%
+  );
+  background-attachment: fixed;
+}
+
+.navbar {
+  scroll-behavior: smooth;
+  background-image: radial-gradient(
+    circle farthest-corner at 10% 20%,
+    rgba(70, 43, 25, 1) 10%,
+    rgb(24, 14, 13) 90%
   );
   background-attachment: fixed;
 }
