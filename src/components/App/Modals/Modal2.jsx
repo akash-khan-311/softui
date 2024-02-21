@@ -36,7 +36,7 @@ const Modal2 = () => {
       <CodeBox stringCode={modalcode}>
         <button
           onClick={() => setModalOpen(true)}
-          className="bg-gradient-to-tr from-blue-900 to-blue-500 rounded-md py-3 px-6 text-center align-middle font-sans text-xs font-bold capitalize text-white shadow-md shadow-gray-900/10 transition-all hover:shadow-lg hover:shadow-gray-900/20 active:opacity-[0.85] disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+          className="bg-gradient-to-tr from-blue-gray-400 to-blue-gray-500 rounded-md py-3 px-6 text-center align-middle font-sans text-xs font-bold capitalize text-white shadow-md shadow-gray-900/10 transition-all hover:shadow-lg hover:shadow-gray-900/20 active:opacity-[0.85] disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
         >
           Large Modal
         </button>
