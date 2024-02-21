@@ -3,7 +3,7 @@
 import { useState } from "react";
 import CodeBox from "../../../Shared/CodeBox/CodeBox";
 
-const Modal1 = () => {
+const Modal3 = () => {
   const [modalOpen, setModalOpen] = useState(false);
   const modalcode = `import { useState } from "react";
     const Modal = () => {
@@ -11,7 +11,7 @@ const Modal1 = () => {
         return (
             <div>
                 <button onClick={() => setModalOpen(true)} className="bg-gradient-to-tr from-blue-900 to-blue-500 rounded-md py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-gray-900/10 transition-all hover:shadow-lg hover:shadow-gray-900/20 active:opacity-[0.85] disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none">Open Dialog</button>
-                <div onClick={() => setModalOpen(false)}  className={\`z-[999] fixed flex items-center justify-center h-screen w-screen place-items-center \${modalOpen ? "visible opacity-1" : "invisible opacity-0"} inset-0 bg-black bg-opacity-60 duration-100 \`}>
+                <div onClick={() => setModalOpen(false)}  className={\`z-[999] fixed flex items-center justify-center h-screen w-screen place-items-center \${modalOpen ? "visible opacity-1" : "invisible opacity-0"} inset-0 backdrop-blur-sm bg-black/50 duration-100 \`}>
                     <div onClick={(e) => e.stopPropagation()} className={\`absolute m-4 w-2/5 min-w-[40%] max-w-[40%] rounded-lg bg-white font-sans text-base font-lightd text-blue-gray-500 \${modalOpen ? "translate-y-6 opacity-1 duration-300" : "-translate-y-6 opacity-0 duration-200"} shadow-2xl\`}>
                         <div className="flex items-center p-4 font-sans text-2xl antialiased font-semibold leading-snug shrink-0 text-blue-gray-900">
                             Hi, I'm Aero UI
@@ -34,19 +34,19 @@ const Modal1 = () => {
     `;
   return (
     <div>
-      <CodeBox text={"Default Modal"} stringCode={modalcode}>
+      <CodeBox text={"Background Blur Modal"} stringCode={modalcode}>
         <div>
           <button
             onClick={() => setModalOpen(true)}
-            className="bg-gradient-to-tr from-blue-900 to-blue-500 rounded-md py-3 px-6 text-center align-middle font-sans text-xs font-bold capitalize text-white shadow-md shadow-gray-900/10 transition-all hover:shadow-lg hover:shadow-gray-900/20 active:opacity-[0.85] disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+            className="bg-gradient-to-tr from-red-900 to-red-500 rounded-md py-3 px-6 text-center align-middle font-sans text-xs font-bold capitalize text-white shadow-md shadow-gray-900/10 transition-all hover:shadow-lg hover:shadow-gray-900/20 active:opacity-[0.85] disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
           >
-            Default Dialog
+            Modal
           </button>
           <div
             onClick={() => setModalOpen(false)}
             className={`z-[999] fixed flex items-center justify-center h-screen w-screen place-items-center ${
               modalOpen ? "visible opacity-1" : "invisible opacity-0"
-            } inset-0 bg-black bg-opacity-60 duration-100`}
+            } inset-0 backdrop-blur-sm bg-black/50 duration-100`}
           >
             <div
               onClick={(e) => e.stopPropagation()}
@@ -87,4 +87,4 @@ const Modal1 = () => {
   );
 };
 
-export default Modal1;
+export default Modal3;
