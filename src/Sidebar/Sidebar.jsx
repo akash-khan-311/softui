@@ -14,6 +14,7 @@ const componentsItems = [
   "Card",
   "Form",
   "Footer",
+  "Hero",
   "Input",
   "Slider",
   "Modal",

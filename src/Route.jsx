@@ -14,6 +14,7 @@ import Form from "./UIcomponents/Form/Form";
 import Input from "./UIcomponents/Input/Input";
 import Modal from "./UIcomponents/Modal/Modal";
 import Navbar from "./UIcomponents/Navbar/Navbar";
+import Hero from "./UIcomponents/Hero/Hero";
 
 const Route = createBrowserRouter([
   { path: "*", element: <NotFound /> },
@@ -40,6 +41,7 @@ const Route = createBrowserRouter([
       { path: "slider", element: <NotFound /> },
       { path: "modal", element: <Modal /> },
       { path: "navbar", element: <Navbar /> },
+      {path:'hero', element: <Hero/>}
     ],
   },
 ]);
