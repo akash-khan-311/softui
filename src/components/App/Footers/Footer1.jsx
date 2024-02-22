@@ -2,7 +2,7 @@ import CodeBox from "../../../Shared/CodeBox/CodeBox";
 
 const Footer1 = () => {
   return (
-    <div>
+    <>
       <CodeBox
         text={"Copyright"}
         stringCode={`<footer className="bg-gray-300 text-center dark:bg-neutral-700 lg:text-left">
@@ -23,7 +23,7 @@ const Footer1 = () => {
           </div>
         </footer>
       </CodeBox>
-    </div>
+    </>
   );
 };
 
