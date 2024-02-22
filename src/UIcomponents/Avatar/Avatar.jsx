@@ -7,6 +7,7 @@ const Avatar = () => {
     <div className="flex flex-col justify-center items-center gap-5">
       {/* Avatar-1 */}
       <Avatars1 />
+      <Avatars1 />
       <Avatars2 />
       <Avatars3 />
     </div>
