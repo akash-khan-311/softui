@@ -36,7 +36,7 @@ const Sidebar = () => {
   };
   return (
     <div
-      className={`components-sidebar fixed top-16  z-[80]  w-[300px] select-none px-6 block transition-all  overflow-y-scroll 
+      className={`components-sidebar fixed top-16  z-[80] -translate-x-full md:translate-x-0  w-[300px] select-none px-6 block transition-all  overflow-y-scroll 
       `}
     >
       <div className=" flex h-full w-full flex-col space-y-2  ">
