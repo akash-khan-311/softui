@@ -2,6 +2,7 @@ import Footer1 from "../../components/App/Footers/Footer1";
 import Footer2 from "../../components/App/Footers/Footer2";
 import Footer3 from "../../components/App/Footers/Footer3";
 import Footer4 from "../../components/App/Footers/Footer4";
+import Footer5 from "../../components/App/Footers/Footer5";
 
 const Footer = () => {
   return (
@@ -12,8 +13,10 @@ const Footer = () => {
       <Footer2 />
       {/* Footer With Icons */}
       <Footer3 />
-      {/*  */}
+      {/* Dark Theme footer*/}
       <Footer4 />
+      {/* Footer With Form */}
+      <Footer5 />
     </div>
   );
 };
