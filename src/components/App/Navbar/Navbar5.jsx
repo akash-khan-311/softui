@@ -3,7 +3,7 @@ import CodeBox from "../../../Shared/CodeBox/CodeBox";
 
 const Navbar5 = () => {
   const [isOpen, setIsOpen] = useState(false);
-
+  
   return (
     <>
       <CodeBox
