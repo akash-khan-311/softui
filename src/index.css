@@ -56,7 +56,7 @@ body::-webkit-scrollbar {
 
 .components-sidebar,
 .layout {
-  height: calc(100vh - 78px);
+  height: calc(100vh - 64px);
 }
 
 .layout::-webkit-scrollbar {
