@@ -21,7 +21,7 @@ body {
   background-attachment: fixed;
 }
 
-/* .blur {
+.blur {
   position: absolute;
   background: rgba(253, 120, 43, 0.69);
   background-attachment: fixed;
@@ -41,7 +41,7 @@ body {
   height: 15rem;
   bottom: 0;
   right: 0;
-} */
+}
 
 body::-webkit-scrollbar {
   display: none;
