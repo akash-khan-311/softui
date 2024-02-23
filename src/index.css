@@ -48,7 +48,8 @@ body::-webkit-scrollbar {
 }
 
 .active {
-  background-color: rgb(245, 127, 23);
+  color: #fff;
+  border-left: 2px solid orange;
 }
 
 .components-sidebar,
