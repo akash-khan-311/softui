@@ -15,27 +15,27 @@ const Avatars3 = () => {
         <div className="flex flex-wrap justify-evenly gap-5 ">
           <img
             className="w-6 h-6 rounded"
-            src="https://cdn.openart.ai/stable_diffusion/853e3cb67e034e85f9747651667bd1a901ca4863_2000x2000.webp"
+            src="https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&crop=faces&fit=crop&h=200&w=200"
             alt="Extra small avatar"
           />
           <img
             className="w-8 h-8 rounded"
-            src="https://cdn.openart.ai/stable_diffusion/853e3cb67e034e85f9747651667bd1a901ca4863_2000x2000.webp"
+            src="https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&crop=faces&fit=crop&h=200&w=200"
             alt="Small avatar"
           />
           <img
             className="w-10 h-10 rounded"
-            src="https://cdn.openart.ai/stable_diffusion/853e3cb67e034e85f9747651667bd1a901ca4863_2000x2000.webp"
+            src="https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&crop=faces&fit=crop&h=200&w=200"
             alt="Medium avatar"
           />
           <img
             className="w-20 h-20 rounded"
-            src="https://cdn.openart.ai/stable_diffusion/853e3cb67e034e85f9747651667bd1a901ca4863_2000x2000.webp"
+            src="https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&crop=faces&fit=crop&h=200&w=200"
             alt="Large avatar"
           />
           <img
             className="rounded w-36 h-36"
-            src="https://cdn.openart.ai/stable_diffusion/853e3cb67e034e85f9747651667bd1a901ca4863_2000x2000.webp"
+            src="https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&crop=faces&fit=crop&h=200&w=200"
             alt="Extra large avatar"
           />
         </div>
