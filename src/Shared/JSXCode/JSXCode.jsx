@@ -3,7 +3,14 @@ import { dracula } from "react-syntax-highlighter/dist/esm/styles/prism";
 
 const JSXCode = ({ stringCode }) => {
   return (
-    <SyntaxHighlighter language="jsx" style={dracula}>
+    <SyntaxHighlighter
+      customStyle={{
+        backgroundColor: "#00212B",
+        margin: "0px",
+      }}
+      language="jsx"
+      style={dracula}
+    >
       {stringCode}
     </SyntaxHighlighter>
   );
