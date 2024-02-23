@@ -19,7 +19,7 @@ const Home = () => {
               with Aero UI, one component at a time.
             </p>
             <div className="flex items-center justify-center gap-x-3">
-              <Link to={"/components"}>
+              <Link to={"/components/avatar"}>
                 <Button color="amber" className="capitalize" size="lg">
                   Components
                 </Button>
