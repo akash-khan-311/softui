@@ -2,6 +2,7 @@ import Card1 from "../../components/App/Cards/Card1";
 import Card10 from "../../components/App/Cards/Card10";
 import Card11 from "../../components/App/Cards/Card11";
 import Card12 from "../../components/App/Cards/Card12";
+import Card13 from "../../components/App/Cards/Card13";
 import Card2 from "../../components/App/Cards/Card2";
 import Card3 from "../../components/App/Cards/Card3";
 import Card4 from "../../components/App/Cards/Card4";
@@ -38,6 +39,8 @@ const Card = () => {
       <Card11 />
       {/* Profile Card With cover Image */}
       <Card12/>
+      {/* Product gird Card */}
+      <Card13/>
       
       
     </div>
