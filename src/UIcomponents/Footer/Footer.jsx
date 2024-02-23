@@ -5,6 +5,7 @@ import Footer4 from "../../components/App/Footers/Footer4";
 import Footer5 from "../../components/App/Footers/Footer5";
 import Footer6 from "../../components/App/Footers/Footer6";
 import Footer7 from "../../components/App/Footers/Footer7";
+import Footer8 from "../../components/App/Footers/Footer8";
 
 const Footer = () => {
   return (
@@ -22,6 +23,8 @@ const Footer = () => {
       {/* Advanced Footer */}
       <Footer6 />
       <Footer7/>
+      {/* Blue theme footer */}
+      <Footer8/>
     </div>
   );
 };

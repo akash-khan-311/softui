@@ -30,7 +30,7 @@ const Footer5 = () => {
   </div>
   {/* Copyright section */}
   <div className="w-full p-4 text-center text-white" style={{ backgroundColor: "rgba(0, 0, 0, 0.2)" }}>
-    © 2023 Copyright{" "}
+    ©  2024 Copyright{" "}
     <a className="text-white font-semibold" href="#!">
       Aero UI
     </a>
@@ -69,7 +69,7 @@ const Footer5 = () => {
             className="w-full p-4 text-center text-white"
             style={{ backgroundColor: "rgba(0, 0, 0, 0.2)" }}
           >
-            © 2023 Copyright{" "}
+            © 2024 Copyright{" "}
             <a className="text-white font-semibold" href="#!">
               Aero UI
             </a>
