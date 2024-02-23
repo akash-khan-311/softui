@@ -26,7 +26,6 @@ const CodeBox = ({ children, stringCode, text }) => {
   ];
   return (
     <>
-
       <div className={`w-full rounded-md h-fit  px-4 py-2 my-20`}>
         <h2 className="text-white text-3xl font-semibold mb-10">{text}</h2>
         <div className="flex gap-2 rounded-md items-center justify-between bg-yellow-900">
