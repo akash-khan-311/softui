@@ -124,7 +124,7 @@ const Footer2 = () => {
   </div>
   {/* Copyright section */}
   <div className="p-4 text-center text-neutral-700 dark:text-neutral-200 flex justify-center ">
-    <span className="mr-2">© 2023 Copyright</span>
+    <span className="mr-2">©  2024 Copyright</span>
     <span className="text-gray-900 font-semibold cursor-pointer">
       Aero UI
     </span>
@@ -299,7 +299,7 @@ const Footer2 = () => {
           </div>
           {/*Copyright section*/}
           <div className="p-4 text-center text-neutral-700 dark:text-neutral-200 flex justify-center ">
-            <span className="mr-2">© 2023 Copyright</span>
+            <span className="mr-2">© 2024 Copyright</span>
             <span className="text-gray-900 font-semibold cursor-pointer">
               Aero UI
             </span>
