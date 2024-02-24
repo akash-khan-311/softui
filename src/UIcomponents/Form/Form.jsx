@@ -5,6 +5,8 @@ import Form3 from "../../components/App/Forms/Form3";
 import Form4 from "../../components/App/Forms/Form4";
 import Form5 from "../../components/App/Forms/Form5";
 import Form6 from "../../components/App/Forms/Form6";
+import Form7 from "../../components/App/Forms/Form7";
+import Form8 from "../../components/App/Forms/Form8";
 
 const Form = () => {
   return (
@@ -24,6 +26,9 @@ const Form = () => {
       <Form5/>
       {/*  */}
       <Form6/>
+      {/* Login Form */}
+      <Form7/>
+      <Form8/>
     </div>
   );
 };
