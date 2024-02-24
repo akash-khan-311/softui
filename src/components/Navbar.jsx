@@ -63,17 +63,10 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="mx-auto fixed top-0  w-full  border-b-2 navbar border-orange-400 z-[600]">
-      <div className="flex items-center justify-between container mx-auto px-5 lg:px-0">
+    <nav className="mx-auto fixed top-0 py-2 w-full border-b-2 navbar border-orange-400  z-50">
+      <div className="flex items-center justify-between container mx-auto px-5 lg:px-0 ">
         <Link to={"/"}>
-          <Typography
-            as="a"
-            color="white"
-            variant="h3"
-            className="cursor-pointer py-1.5 w-72"
-          >
-            <img src={logo} alt="Aero UI" />
-          </Typography>
+          <img src={logo} className="w-56" alt="Aero UI" />
         </Link>
         <div className="hidden lg:block">
           <NavList />

@@ -22,7 +22,7 @@ const CodeBox = ({ children, stringCode, text }) => {
         <div className={`w-full rounded-md h-fit  px-4 py-1 my-10 `}>
           <h2 className="text-white text-3xl font-semibold mb-10">{text}</h2>
           <div className="flex gap-2 items-center justify-between backdrop-blur-2xl bg-white/30">
-            <div className="flex ">
+            <div className="flex">
               {isCodeBoxOpen ? (
                 <div className="">
                   <a
