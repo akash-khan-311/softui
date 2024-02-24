@@ -4,6 +4,7 @@ import { Hero2 } from "../../components/App/Hero/Hero2";
 import { Hero3 } from "../../components/App/Hero/Hero3";
 import Hero4 from "../../components/App/Hero/Hero4";
 import Hero5 from "../../components/App/Hero/Hero5";
+import Hero6 from "../../components/App/Hero/Hero6";
 
 const Hero = () => {
   return (
@@ -16,6 +17,7 @@ const Hero = () => {
       <Hero3 />
       <Hero4 />
       <Hero5/>
+      <Hero6/>
     </div>
   );
 };

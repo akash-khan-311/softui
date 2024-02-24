@@ -17,6 +17,7 @@ import Navbar from "./UIcomponents/Navbar/Navbar";
 import Hero from "./UIcomponents/Hero/Hero";
 import Spinner from "./UIcomponents/Spinner/Spinner";
 import Stats from "./UIcomponents/Stats/Stats";
+import Pagination from "./UIcomponents/Pagination/Pagination";
 
 const Route = createBrowserRouter([
   { path: "*", element: <NotFound /> },
@@ -45,7 +46,8 @@ const Route = createBrowserRouter([
       { path: "navbar", element: <Navbar /> },
       { path: "spinner", element: <Spinner /> },
       { path: "stats", element: <Stats /> },
-      {path:'hero', element: <Hero/>}
+      {path:'hero', element: <Hero/>},
+      {path: 'pagination', element: <Pagination/>}
     ],
   },
 ]);
