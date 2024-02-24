@@ -38,12 +38,12 @@ const Sidebar = () => {
   };
   return (
     <div
-      className={` components-sidebar backdrop-blur-xl bg-white/10 fixed top-16 z-[10] -translate-x-full md:translate-x-0  w-[240px] select-none px-2 block transition-all overflow-y-scroll 
+      className={` components-sidebar  backdrop-blur-xl bg-white/10 fixed top-[63px] z-[10] -translate-x-full md:translate-x-0  w-[240px] select-none px-2 block transition-all overflow-y-scroll 
       `}
     >
-      <div className="flex h-full w-full flex-col space-y-2">
+      <div className="flex h-full w-full  flex-col space-y-1">
         {/* docs container */}
-        <div className="flex flex-col px-4 pt-10 text-lg text-white ">
+        <div className="flex flex-col px-4 pt-10  text-lg text-white ">
           <div onClick={handleDocNavOpen} className="text-2xl">
             <div className="flex justify-between items-center border px-4 py-2 rounded-md ">
               <div className="flex items-center ">
