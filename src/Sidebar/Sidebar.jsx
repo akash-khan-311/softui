@@ -19,6 +19,7 @@ const componentsItems = [
   "Slider",
   "Modal",
   "Navbar",
+  "Pagination"
 ];
 
 const Sidebar = () => {
