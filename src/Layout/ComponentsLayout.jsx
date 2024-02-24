@@ -5,12 +5,11 @@ import Navbar from "../components/Navbar";
 const ComponentsLayout = () => {
   return (
     <>
-      <div className="blur home-blur-right"></div>
       <Navbar />
       <div className="flex">
         <Sidebar />
-        <div className="flex-1 md:ml-64   duration-300 overflow-x-hidden overflow-y-auto">
-          <div className=" container mx-auto  xl:p-20 lg:p-10 md:p-8 p-5  ">
+        <div className="flex-1 relative z-30 md:ml-64 duration-300 overflow-x-hidden overflow-y-auto">
+          <div className=" container mx-auto xl:p-20 lg:p-10 md:p-8 p-5">
             <Outlet />
           </div>
         </div>
