@@ -19,6 +19,8 @@ const componentsItems = [
   "Slider",
   "Modal",
   "Navbar",
+  "Spinner",
+  'Stats',
   "Pagination",
 ];
 
