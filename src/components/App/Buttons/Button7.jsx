@@ -13,7 +13,7 @@ const Button7 = () => {
 </button>
 `}
       >
-        <div className="flex justify-evenly items-center">
+        <div className="flex flex-wrap space-y-5 md:space-y-0 justify-evenly items-center">
           <button className="relative py-2 px-8 text-black text-sm font-bold  overflow-hidden bg-white rounded-lg transition-all duration-400 ease-in-out shadow-md hover:scale-105 hover:text-white hover:shadow-lg active:scale-90 before:absolute before:top-0 before:-left-full before:w-full before:h-full before:bg-gradient-to-r before:from-blue-900 before:to-blue-400 before:transition-all before:duration-500 before:ease-in-out before:z-[-1] before:rounded-lg hover:before:left-0">
             HOVER ME!
           </button>
