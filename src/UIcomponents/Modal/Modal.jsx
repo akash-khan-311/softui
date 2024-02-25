@@ -13,7 +13,7 @@ const Modal = () => {
       <Modal2 />
       {/* Background Blur Modal */}
       <Modal3 />
-      <Modal4/>
+      <Modal4 />
     </div>
   );
 };
