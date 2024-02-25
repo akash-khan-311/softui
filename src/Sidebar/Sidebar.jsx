@@ -47,7 +47,7 @@ const Sidebar = () => {
   };
   return (
     <>
-      <div className="menu z-30">
+      <div className="menu z-20">
         <button
           onClick={handleToggle}
           className="mobile-menu-button p-4 focus:outline-none  text-orange-600 fixed top-12  xl:hidden right-1"
