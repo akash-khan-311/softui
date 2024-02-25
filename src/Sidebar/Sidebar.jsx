@@ -20,9 +20,10 @@ const componentsItems = [
   "Slider",
   "Modal",
   "Navbar",
+  "Pagination",
   "Spinner",
   "Stats",
-  "Pagination",
+  "Table"
 ];
 
 const Sidebar = () => {
