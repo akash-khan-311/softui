@@ -6,6 +6,7 @@ import Spinner5 from "../../components/App/Spinner/Spinner5";
 import Spinner6 from "../../components/App/Spinner/Spinner6";
 import Spinner7 from "../../components/App/Spinner/Spinner7";
 import Spinner8 from "../../components/App/Spinner/Spinner8";
+import Spinner9 from "../../components/App/Spinner/Spinner9";
 
 const Spinner = () => {
   return (
@@ -18,6 +19,7 @@ const Spinner = () => {
       <Spinner6/>
       <Spinner7/>
       <Spinner8/>
+      <Spinner9/>
     </div>
   );
 };
