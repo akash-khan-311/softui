@@ -119,7 +119,7 @@ const CodeBox = ({ children, stringCode, text }) => {
           </div>
           <div
             className={`
-                px-0  h-full overflow-hidden
+                px-0  h-full overflow-x-hidden
                 flex justify-center"
             border-r border-b border-l  rounded-b-lg w-full`}
           >

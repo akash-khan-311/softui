@@ -3,7 +3,7 @@ import CodeBox from "../../../Shared/CodeBox/CodeBox";
 const Table1 = () => {
     return(
         <div>
-             <CodeBox stringCode={` <div className="shadow-lg rounded-lg overflow-hidden mx-4 md:mx-10">
+             <CodeBox stringCode={` <div className="shadow-lg rounded-lg  mx-4 md:mx-10 overflow-x-auto">
   <table className="w-full table-fixed">
     <thead>
       <tr className="bg-gray-100">
@@ -50,14 +50,14 @@ const Table1 = () => {
     </tbody>
   </table>
 </div>`}>
-             <div className="shadow-lg rounded-lg overflow-hidden mx-4 md:mx-10">
-  <table className="w-full table-fixed">
+             <div className="shadow-lg rounded-lg  mx-4 md:mx-10 overflow-x-auto">
+  <table className="w-full ">
     <thead>
       <tr className="bg-gray-100">
-        <th className="w-1/4 py-4 px-6 text-left text-gray-600 font-bold uppercase">Name</th>
-        <th className="w-1/4 py-4 px-6 text-left text-gray-600 font-bold uppercase">Email</th>
-        <th className="w-1/4 py-4 px-6 text-left text-gray-600 font-bold uppercase">Phone</th>
-        <th className="w-1/4 py-4 px-6 text-left text-gray-600 font-bold uppercase">Status</th>
+        <th className="lg:w-1/4 w-full py-4 px-6 text-left text-gray-600 font-bold uppercase">Name</th>
+        <th className="lg:w-1/4 w-full py-4 px-6 text-left text-gray-600 font-bold uppercase">Email</th>
+        <th className="lg:w-1/4 w-full py-4 px-6 text-left text-gray-600 font-bold uppercase">Phone</th>
+        <th className="lg:w-1/4 w-full py-4 px-6 text-left text-gray-600 font-bold uppercase">Status</th>
       </tr>
     </thead>
     <tbody className="bg-white">
