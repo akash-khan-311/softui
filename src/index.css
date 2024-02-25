@@ -16,9 +16,9 @@ body {
   background-attachment: fixed;
 }
 
-body::-webkit-scrollbar {
+/* body::-webkit-scrollbar {
   display: none;
-}
+} */
 
 .active {
   color: #fff;
