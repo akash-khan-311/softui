@@ -7,7 +7,7 @@ const Table2 = () => {
   <div className="p-4 flex">
     <h1 className="text-3xl">Users</h1>
   </div>
-  <div className="px-3 py-4 flex justify-center">
+  <div className="px-3 py-4 flex lg:justify-center overflow-x-auto">
     <table className="w-full text-md bg-white shadow-md rounded mb-4">
       <tbody>
         <tr className="border-b">
@@ -95,8 +95,8 @@ const Table2 = () => {
   <div className="p-4 flex">
     <h1 className="text-3xl">Users</h1>
   </div>
-  <div className="px-3 py-4 flex justify-center">
-    <table className="w-full text-md bg-white shadow-md rounded mb-4">
+  <div className="px-3 py-4 flex lg:justify-center overflow-x-auto">
+    <table className="w-full text-md bg-white shadow-md rounded mb-4 ">
       <tbody>
         <tr className="border-b">
           <th className="text-left p-3 px-5">Name</th>
