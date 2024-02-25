@@ -5,7 +5,9 @@ const Root = () => {
   return (
     <div className="relative z-40">
       <Navbar />
-      <Outlet />
+      <div className="lg:px-0 px-5">
+        <Outlet />
+      </div>
     </div>
   );
 };
