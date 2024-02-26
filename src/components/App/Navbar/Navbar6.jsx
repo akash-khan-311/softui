@@ -11,7 +11,9 @@ const Navbar6 = () => {
   ];
   return (
     <>
-      <CodeBox text={'Responsive Navbar'} stringCode={`
+      <CodeBox
+        text={"Responsive Navbar"}
+        stringCode={`
 import { useState } from "react";
 
 const Navbar = () => {
@@ -28,7 +30,7 @@ const Navbar = () => {
       <div className="md:flex items-center justify-between bg-white py-4 md:px-10 px-7">
         <div className="cursor-pointer">
           <span className="text-4xl font-bold text-gray-800">
-            Aero <span className="text-orange-600">UI</span>
+            Soft <span className="text-orange-600">UI</span>
           </span>
         </div>
         <div
@@ -97,12 +99,13 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;`}>
+export default Navbar;`}
+      >
         <div className="shadow-md w-full">
           <div className="md:flex items-center justify-between bg-white py-4 md:px-10 px-7">
             <div className="cursor-pointer">
               <span className="text-4xl font-bold text-gray-800">
-                Aero <span className="text-orange-600">UI</span>
+                Soft <span className="text-orange-600">UI</span>
               </span>
             </div>
             <div

@@ -7,6 +7,7 @@ import Form5 from "../../components/App/Forms/Form5";
 import Form6 from "../../components/App/Forms/Form6";
 import Form7 from "../../components/App/Forms/Form7";
 import Form8 from "../../components/App/Forms/Form8";
+import Form9 from "../../components/App/Forms/Form9";
 
 const Form = () => {
   return (
@@ -29,6 +30,7 @@ const Form = () => {
       {/* Login Form */}
       <Form7/>
       <Form8/>
+      <Form9/>
     </div>
   );
 };

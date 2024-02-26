@@ -32,7 +32,7 @@ const Footer5 = () => {
   <div className="w-full p-4 text-center text-white" style={{ backgroundColor: "rgba(0, 0, 0, 0.2)" }}>
     ©  2024 Copyright{" "}
     <a className="text-white font-semibold" href="#!">
-      Aero UI
+      Soft UI
     </a>
   </div>
 </footer>
@@ -71,7 +71,7 @@ const Footer5 = () => {
           >
             © 2024 Copyright{" "}
             <a className="text-white font-semibold" href="#!">
-              Aero UI
+              Soft UI
             </a>
           </div>
         </footer>
