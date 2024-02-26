@@ -3,12 +3,20 @@ import { FaAngleDown } from "react-icons/fa";
 import CodeBox from "../../../Shared/CodeBox/CodeBox";
 const accordionsData = [
   {
+
+    title: "Why Choose Aero UI ? ",
+
     title: "Why Choose Soft UI ? ",
+
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, eligendi? Modi, optio explicabo aspernatur perspiciatis nam hic quia necessitatibus, error obcaecati quo dolor cumque repudiandae!",
   },
   {
+
+    title: "What is Aero UI",
+
     title: "What is Soft UI",
+
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, eligendi? Modi, optio explicabo aspernatur perspiciatis nam hic quia necessitatibus, error obcaecati quo dolor cumque repudiandae!",
   },
@@ -62,8 +70,12 @@ const Accordions1 = () => {
                 ))}
             </div>
         )
+
+    }        
+
     }
         
+
 `}
         text={"Accordion Example"}
       >
