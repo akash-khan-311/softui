@@ -2,7 +2,6 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { Collapse, IconButton, Typography } from "@material-tailwind/react";
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import logo from "../assets/aeroui.svg";
 
 const Navbar = () => {
   const [openNav, setOpenNav] = useState(false);
@@ -66,12 +65,15 @@ const Navbar = () => {
     <nav className="mx-auto fixed top-0 py-2 w-full border-b-2 navbar border-orange-400  z-20">
       <div className="flex items-center justify-between container mx-auto px-5 lg:px-0 ">
         <Link to={"/"}>
-          <img src={logo} className="w-56" alt="Aero UI" />
+          <h2 className=" text-5xl font-bold logo-text">
+            {" "}
+            <span> {"</>"} </span> Aero UI
+          </h2>
         </Link>
         <div className="hidden lg:block">
           <NavList />
         </div>
-        <div></div>
+       
         <IconButton
           variant="text"
           className="ml-auto h-8 w-8 text-inherit hover:bg-transparent focus:bg-transparent active:bg-transparent lg:hidden"
