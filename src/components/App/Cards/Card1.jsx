@@ -54,7 +54,7 @@ const Card1 = () => {
         </div>
       </div>
       <h3 className="font-black text-gray-800 md:text-3xl text-xl">
-        Welcome to Aero UI
+        Welcome to Soft UI
       </h3>
       <p className="md:text-lg text-gray-700 text-base">
         The best kept secret of The Bahamas is the country’s sheer size
@@ -120,7 +120,7 @@ const Card1 = () => {
                 </div>
               </div>
               <h3 className="font-black text-gray-800 md:text-3xl text-xl">
-                Welcome to Aero UI
+                Welcome to Soft UI
               </h3>
               <p className="md:text-lg text-gray-700 text-base">
                 The best kept secret of The Bahamas is the country’s sheer size

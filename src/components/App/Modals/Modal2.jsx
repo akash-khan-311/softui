@@ -13,7 +13,7 @@ const Modal2 = () => {
               <div onClick={() => setModalOpen(false)}  className={\`z-[999] fixed flex items-center justify-center h-screen w-screen place-items-center \${modalOpen ? "visible opacity-1" : "invisible opacity-0"} inset-0 bg-black bg-opacity-60 duration-100 \`}>
                   <div onClick={(e) => e.stopPropagation()} className={\`absolute m-4 w-3/4 min-w-[60%] max-w-[60%] rounded-lg bg-white font-sans text-base font-lightd text-blue-gray-500 \${modalOpen ? "translate-y-6 opacity-1 duration-300" : "-translate-y-6 opacity-0 duration-200"} shadow-2xl\`}>
                       <div className="flex items-center p-4 font-sans text-2xl antialiased font-semibold leading-snug shrink-0 text-blue-gray-900">
-                          Hi, I'm Aero UI
+                          Hi, I'm Soft UI
                       </div>
                       <div className="relative p-4 font-sans text-base antialiased font-light leading-relaxed border-t border-b border-t-blue-gray-100 border-b-blue-gray-100 text-blue-gray-500">
                           Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat eveniet aperiam veritatis voluptate architecto vitae, exercitationem nostrum perspiciatis autem iure, odit alias odio. Suscipit eum sequi quod quidem est incidunt?
@@ -57,7 +57,7 @@ const Modal2 = () => {
             } shadow-2xl`}
           >
             <div className="flex items-center p-4 font-sans text-2xl antialiased font-semibold leading-snug shrink-0 text-blue-gray-900">
-              Hi, I'm Aero UI
+              Hi, I'm Soft UI
             </div>
             <div className="relative p-4 font-sans text-base antialiased font-light leading-relaxed border-t border-b border-t-blue-gray-100 border-b-blue-gray-100 text-blue-gray-500">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat

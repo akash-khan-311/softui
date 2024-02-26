@@ -43,7 +43,7 @@ const Footer4 = () => {
   {/*Copyright section*/}
   <div className="w-full p-4 text-center" style={{backgroundColor: 'rgba(0, 0, 0, 0.2)'}}>
     ©  2024 Copyright {" "}
-    <a className="text-white font-semibold" href="#!">Aero UI</a>
+    <a className="text-white font-semibold" href="#!">Soft UI</a>
   </div>
 </footer>`}
       >
@@ -159,7 +159,7 @@ const Footer4 = () => {
           >
             © 2024 Copyright{" "}
             <a className="text-white font-semibold" href="#!">
-              Aero UI
+              Soft UI
             </a>
           </div>
         </footer>

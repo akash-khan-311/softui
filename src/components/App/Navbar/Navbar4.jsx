@@ -6,13 +6,13 @@ const Navbar4 = () => {
       <CodeBox
         text={"Navbar Without Routes"}
         stringCode={`<nav className="px-10 py-4 bg-red-50 ">
-  <a href=""><h1 className="text-4xl font-bold text-gray-800 inline-block">Aero UI</h1></a>
+  <a href=""><h1 className="text-4xl font-bold text-gray-800 inline-block">Soft UI</h1></a>
 </nav>`}
       >
         <nav className="px-10 py-4 bg-red-50 ">
           <a href="">
             <h1 className="text-4xl font-bold text-gray-800 inline-block">
-              Aero UI
+              Soft UI
             </h1>
           </a>
         </nav>

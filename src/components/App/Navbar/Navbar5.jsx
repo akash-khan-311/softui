@@ -3,7 +3,7 @@ import CodeBox from "../../../Shared/CodeBox/CodeBox";
 
 const Navbar5 = () => {
   const [isOpen, setIsOpen] = useState(false);
-  
+
   return (
     <>
       <CodeBox
@@ -16,7 +16,7 @@ const Navbar5 = () => {
                 <div className="flex justify-start gap-10 ">
                   {/* logo */}
                   <a href="">
-                    <h1 className="text-4xl font-bold text-gray-800">Aero UI</h1>
+                    <h1 className="text-4xl font-bold text-gray-800">Soft UI</h1>
                   </a>
                   <ul className="flex items-center gap-x-10 text-blue-gray-900 text-lg">
                     <li className="cursor-pointer hover:text-orange-600">Home</li>
@@ -96,7 +96,7 @@ const Navbar5 = () => {
           <div className="flex justify-start gap-10 ">
             {/* logo */}
             <a href="">
-              <h1 className="text-4xl font-bold text-gray-800">Aero UI</h1>
+              <h1 className="text-4xl font-bold text-gray-800">Soft UI</h1>
             </a>
             <ul className="flex items-center gap-x-10 text-blue-gray-900 text-lg">
               <li className="cursor-pointer hover:text-orange-600">Home</li>

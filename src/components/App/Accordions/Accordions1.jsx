@@ -1,40 +1,40 @@
-
-import { useState } from 'react';
+import { useState } from "react";
 import { FaAngleDown } from "react-icons/fa";
-import CodeBox from '../../../Shared/CodeBox/CodeBox';
+import CodeBox from "../../../Shared/CodeBox/CodeBox";
 const accordionsData = [
-    {
-      title: "Why Choose Aero UI ? ",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, eligendi? Modi, optio explicabo aspernatur perspiciatis nam hic quia necessitatibus, error obcaecati quo dolor cumque repudiandae!",
-    },
-    {
-      title: "What is Aero UI",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, eligendi? Modi, optio explicabo aspernatur perspiciatis nam hic quia necessitatibus, error obcaecati quo dolor cumque repudiandae!",
-    },
-    {
-      title: "Another Question",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, eligendi? Modi, optio explicabo aspernatur perspiciatis nam hic quia necessitatibus, error obcaecati quo dolor cumque repudiandae!",
-    },
-    {
-      title: "Another Question 2",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, eligendi? Modi, optio explicabo aspernatur perspiciatis nam hic quia necessitatibus, error obcaecati quo dolor cumque repudiandae!",
-    },
-  ];
+  {
+    title: "Why Choose Soft UI ? ",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, eligendi? Modi, optio explicabo aspernatur perspiciatis nam hic quia necessitatibus, error obcaecati quo dolor cumque repudiandae!",
+  },
+  {
+    title: "What is Soft UI",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, eligendi? Modi, optio explicabo aspernatur perspiciatis nam hic quia necessitatibus, error obcaecati quo dolor cumque repudiandae!",
+  },
+  {
+    title: "Another Question",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, eligendi? Modi, optio explicabo aspernatur perspiciatis nam hic quia necessitatibus, error obcaecati quo dolor cumque repudiandae!",
+  },
+  {
+    title: "Another Question 2",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, eligendi? Modi, optio explicabo aspernatur perspiciatis nam hic quia necessitatibus, error obcaecati quo dolor cumque repudiandae!",
+  },
+];
 const Accordions1 = () => {
-    const [accordionOpen, setAccordionOpen] = useState(null);
-    const handleToogle = (i) => {
-      setAccordionOpen((prevI) => (prevI === i ? null : i));
-    };
-    return (
-        <div className="flex flex-col justify-center gap-5">
-      <CodeBox stringCode={`import { useState } from "react";
+  const [accordionOpen, setAccordionOpen] = useState(null);
+  const handleToogle = (i) => {
+    setAccordionOpen((prevI) => (prevI === i ? null : i));
+  };
+  return (
+    <div className="flex flex-col justify-center gap-5">
+      <CodeBox
+        stringCode={`import { useState } from "react";
     const accordionsData = [
-    { title: "Why Choose Aero UI ? ", description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, eligendi? Modi, optio explicabo aspernatur perspiciatis nam hic quia necessitatibus, error obcaecati quo dolor cumque repudiandae!" }, 
-    { title: "What is Aero UI", description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, eligendi? Modi, optio explicabo aspernatur perspiciatis nam hic quia necessitatibus, error obcaecati quo dolor cumque repudiandae!" }, 
+    { title: "Why Choose Soft UI ? ", description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, eligendi? Modi, optio explicabo aspernatur perspiciatis nam hic quia necessitatibus, error obcaecati quo dolor cumque repudiandae!" }, 
+    { title: "What is Soft UI", description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, eligendi? Modi, optio explicabo aspernatur perspiciatis nam hic quia necessitatibus, error obcaecati quo dolor cumque repudiandae!" }, 
     { title: "Another Question", description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, eligendi? Modi, optio explicabo aspernatur perspiciatis nam hic quia necessitatibus, error obcaecati quo dolor cumque repudiandae!" }, 
     { title: "Another Question 2", description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, eligendi? Modi, optio explicabo aspernatur perspiciatis nam hic quia necessitatibus, error obcaecati quo dolor cumque repudiandae!" }
 ];
@@ -64,7 +64,9 @@ const Accordions1 = () => {
         )
     }
         
-`} text={"Accordion Example"}>
+`}
+        text={"Accordion Example"}
+      >
         <div className="mx-6 rounded-md border font-sans">
           {accordionsData?.map((accordion, i) => (
             <div className="border-b p-6" key={i}>
@@ -95,7 +97,7 @@ const Accordions1 = () => {
         </div>
       </CodeBox>
     </div>
-    );
+  );
 };
 
 export default Accordions1;
