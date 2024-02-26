@@ -25,7 +25,7 @@ const Card6 = () => {
             />
             <div className="p-4">
               <h2 className="text-xl  font-semibold">
-                Hover Card From Aero UI
+                Hover Card From Soft UI
               </h2>
               <p className="text-gray-600">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam

@@ -126,7 +126,7 @@ const Footer2 = () => {
   <div className="p-4 text-center text-neutral-700 dark:text-neutral-200 flex justify-center ">
     <span className="mr-2">©  2024 Copyright</span>
     <span className="text-gray-900 font-semibold cursor-pointer">
-      Aero UI
+      Soft UI
     </span>
   </div>
 </footer>
@@ -301,7 +301,7 @@ const Footer2 = () => {
           <div className="p-4 text-center text-neutral-700 dark:text-neutral-200 flex justify-center ">
             <span className="mr-2">© 2024 Copyright</span>
             <span className="text-gray-900 font-semibold cursor-pointer">
-              Aero UI
+              Soft UI
             </span>
           </div>
         </footer>

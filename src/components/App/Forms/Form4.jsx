@@ -10,7 +10,7 @@ const Form4 = () => {
     <div className="hidden lg:block lg:w-1/2 bg-cover" style={{backgroundImage: 'url("https://images.unsplash.com/photo-1546514714-df0ccc50d7bf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=667&q=80")'}}>
     </div>
     <div className="w-full p-8 lg:w-1/2">
-      <h2 className="text-2xl font-semibold text-gray-700 text-center">Aero UI</h2>
+      <h2 className="text-2xl font-semibold text-gray-700 text-center">Soft UI</h2>
       <p className="text-xl text-gray-600 text-center">Welcome back!</p>
       <a href="#" className="flex items-center justify-center mt-4 text-white rounded-lg shadow-md hover:bg-gray-100">
         <div className="px-4 py-3">
@@ -62,7 +62,7 @@ const Form4 = () => {
             ></div>
             <div className="w-full p-8 lg:w-1/2">
               <h2 className="text-2xl font-semibold text-gray-700 text-center">
-                Aero UI
+                Soft UI
               </h2>
               <p className="text-xl text-gray-600 text-center">Welcome back!</p>
               <a
