@@ -31,7 +31,7 @@ body {
 }
 
 .logo-text {
-  background: linear-gradient(to right, rgba(0, 168,253), #fff 35%, #e00a95);
+  background: linear-gradient(to right,#6227eb , #ffffff 35%,  #278cff);
   background-size: 200% auto;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
