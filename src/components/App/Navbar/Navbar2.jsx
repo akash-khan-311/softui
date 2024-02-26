@@ -8,7 +8,7 @@ const Navbar2 = () => {
         stringCode={`<nav className="px-10 py-4 bg-red-50 ">
   <div className="flex justify-between gap-10 ">
     {/* logo */}
-    <a href=""><h1 className="text-4xl font-bold text-gray-800">Aero UI</h1></a>
+    <a href=""><h1 className="text-4xl font-bold text-gray-800">Soft UI</h1></a>
     {/* Nav Items */}
     <ul className="flex items-center gap-x-10 text-blue-gray-900 text-lg">
       <li className="cursor-pointer hover:text-orange-600">Home</li>
@@ -24,7 +24,7 @@ const Navbar2 = () => {
           <div className="flex justify-between gap-10 ">
             {/* logo */}
             <a href="">
-              <h1 className="text-4xl font-bold text-gray-800">Aero UI</h1>
+              <h1 className="text-4xl font-bold text-gray-800">Soft UI</h1>
             </a>
             {/* Nav Items */}
             <ul className="flex items-center gap-x-10 text-blue-gray-900 text-lg">

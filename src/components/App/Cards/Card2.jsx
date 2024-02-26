@@ -22,7 +22,7 @@ const Card2 = () => {
           <div className="max-w-sm p-6 rounded-lg shadow bg-gray-800 border-gray-700">
             <button>
               <h5 className="mb-2 text-2xl text-left font-bold tracking-tight  text-white">
-                This is Card Of Aero UI . Copy and paste if you need
+                This is Card Of Soft UI . Copy and paste if you need
               </h5>
             </button>
             <p className="mb-3 font-normal  text-gray-400">

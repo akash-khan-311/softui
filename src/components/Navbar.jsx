@@ -55,7 +55,7 @@ const Navbar = () => {
             to={"/Documantion"}
             className="flex items-center hover:text-blue-500 transition-colors"
           >
-            Documantion
+            Documentation
           </Link>
         </Typography>
       </ul>
@@ -63,22 +63,17 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="mx-auto fixed top-0  w-full  border-b-2 navbar border-orange-400 z-[600]">
-      <div className="flex items-center justify-between container mx-auto px-5 lg:px-0">
-        <Link to={"/"}>
-          <Typography
-            as="a"
-            color="white"
-            variant="h3"
-            className="cursor-pointer py-1.5 w-72"
-          >
-            <img src={logo} alt="Aero UI" />
-          </Typography>
+    <nav className="mx-auto fixed top-0 py-2 w-full border-b-2 navbar border-orange-400  z-20">
+      <div className="flex items-center justify-between container mx-auto px-5 lg:px-0 ">
+        <Link to={"/"} className="flex ">
+          <img className="w-14" src={logo} alt="soft ui" />
+
+          <h2 className=" text-5xl font-bold logo-text">Soft UI</h2>
         </Link>
         <div className="hidden lg:block">
           <NavList />
         </div>
-        <div></div>
+
         <IconButton
           variant="text"
           className="ml-auto h-8 w-8 text-inherit hover:bg-transparent focus:bg-transparent active:bg-transparent lg:hidden"
