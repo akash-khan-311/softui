@@ -1,15 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 body {
   scroll-behavior: smooth;
   z-index: 999;
   opacity: 1;
-  background-color: rgb(31, 41 ,55);
+  background-color: rgb(31, 41, 55);
   background-attachment: fixed;
   width: 100%;
   height: 100%;
-
 
   --gap: 2em;
   --line: 1px;
@@ -30,10 +30,31 @@ body {
   background-size: var(--gap) var(--gap);
 }
 
+.logo-text {
+  background: linear-gradient(to right, rgba(0, 168,253), #fff 35%, #e00a95);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradient 3s linear infinite;
+  -webkit-animation: gradient 3s linear infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 75%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 70%;
+  }
+}
+
 .navbar {
   scroll-behavior: smooth;
   opacity: 1;
-  background-color: rgb(31, 41 ,55);
+  background-color: rgb(31, 41, 55);
   background-attachment: fixed;
 }
 
