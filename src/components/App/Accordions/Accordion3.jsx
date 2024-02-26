@@ -82,9 +82,7 @@ const Accordion = ()=> {
           } \`}
         >
           <div
-            className={\`overflow-hidden  \${
-              accordionOpen === i && " "
-            } \`}
+            className="overflow-hidden"
           >
             {accordion.description}
           </div>
@@ -122,9 +120,7 @@ export default Accordion
               } `}
             >
               <div
-                className={`overflow-hidden  ${
-                  accordionOpen === i && " "
-                } `}
+                className="overflow-hidden"
               >
                 {accordion.description}
               </div>
