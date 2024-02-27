@@ -4,7 +4,7 @@ const Card15 = () => {
   return (
     <div>
       <CodeBox
-        stringCode={`<div className="card flex flex-col items-center justify-around w-[260px] text-center relative cursor-pointer shadow-[0_10px_15px_-3px_rgba(33,150,243,0.4),0_4px_6px_-4px_rgba(33,150,243,0.4)] bg-[#6B6ECC] mx-0 my-2.5 px-px py-5 rounded-[10px]">
+        stringCode={`<div className="card flex flex-col items-center justify-around w-[260px] text-center relative cursor-pointer shadow-[0_10px_15px_-3px_rgba(33,150,243,0.4),0_4px_6px_-4px_rgba(33,150,243,0.4)] bg-[#6B6ECC] bg-gradient-to-br from-[#04051dea] to-[#2b566e] mx-0 my-2.5 px-px py-5 rounded-[10px]">
   <div className="content p-5 text-[white] font-extrabold text-[50px]">
     <div className="title font-extrabold uppercase text-[rgba(255,255,255,0.64)] text-[25px] tracking-[1px] mt-2.5">
       Personal edition
@@ -24,7 +24,7 @@ const Card15 = () => {
 </div>`}
       >
         <div className="flex justify-center ">
-          <div className="card flex flex-col items-center justify-around w-[260px] text-center relative cursor-pointer shadow-[0_10px_15px_-3px_rgba(33,150,243,0.4),0_4px_6px_-4px_rgba(33,150,243,0.4)] bg-[#6B6ECC] mx-0 my-2.5 px-px py-5 rounded-[10px]">
+          <div className="card flex flex-col items-center justify-around w-[260px] text-center relative cursor-pointer shadow-[0_10px_15px_-3px_rgba(33,150,243,0.4),0_4px_6px_-4px_rgba(33,150,243,0.4)] bg-[#6B6ECC] bg-gradient-to-br from-[#04051dea] to-[#2b566e] mx-0 my-2.5 px-px py-5 rounded-[10px]">
             <div className="content p-5 text-[white] font-extrabold text-[50px]">
               <div className="title font-extrabold uppercase text-[rgba(255,255,255,0.64)] text-[25px] tracking-[1px] mt-2.5">
                 Personal edition
