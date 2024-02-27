@@ -3,6 +3,7 @@ import Accordion2 from "../../components/App/Accordions/Accordion2";
 import Accordion3 from "../../components/App/Accordions/Accordion3";
 import Accordion4 from "../../components/App/Accordions/Accordion4";
 
+
 const Accordion = () => {
   return (
     <>
@@ -11,6 +12,7 @@ const Accordion = () => {
       <Accordion2/>
       <Accordion3/>
       <Accordion4/>
+  
     </>
   );
 };
