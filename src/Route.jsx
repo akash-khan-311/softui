@@ -20,6 +20,7 @@ import Stats from "./UIcomponents/Stats/Stats";
 import Pagination from "./UIcomponents/Pagination/Pagination";
 import Table from "./UIcomponents/Table/Table";
 import Toggle from "./UIcomponents/Toggle/Toggle";
+import Badge from "./UIcomponents/Badge/Badge";
 
 const Route = createBrowserRouter([
   { path: "*", element: <NotFound /> },
@@ -51,7 +52,8 @@ const Route = createBrowserRouter([
       {path:'hero', element: <Hero/>},
       {path: 'pagination', element: <Pagination/>},
       {path: 'table', element: <Table/>},
-      {path: 'toggle', element: <Toggle/>}
+      {path: 'toggle', element: <Toggle/>},
+      {path: 'badge', element: <Badge/>}
     ],
   },
 ]);
