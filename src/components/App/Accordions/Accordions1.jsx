@@ -40,7 +40,7 @@ const Accordions1 = () => {
     { title: "Another Question", description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, eligendi? Modi, optio explicabo aspernatur perspiciatis nam hic quia necessitatibus, error obcaecati quo dolor cumque repudiandae!" }, 
     { title: "Another Question 2", description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, eligendi? Modi, optio explicabo aspernatur perspiciatis nam hic quia necessitatibus, error obcaecati quo dolor cumque repudiandae!" }
 ];
-    export const Accordion = ()=> {
+     const Accordion = ()=> {
         const [accordionOpen, setAccordionOpen] = useState(null);
         const handleToogle = (i) => {
             setAccordionOpen((prevI) => (prevI === i ? null : i));
@@ -69,7 +69,7 @@ const Accordions1 = () => {
 
     }
         
-
+export default Accordion;
 `}
         text={"Accordion Example"}
       >

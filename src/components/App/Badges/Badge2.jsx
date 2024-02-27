@@ -38,7 +38,7 @@ const Badge2 = () => {
   <span className="absolute bg-gray-900 text-gray-100 px-2 py-1 text-xs font-bold rounded-full -top-3 -right-3">99+</span>
 </button>`}
       >
-        <div className="flex  flex-wrap justify-evenly items-center">
+        <div className="flex  flex-wrap justify-evenly items-center gap-5">
           <button className="relative bg-blue-700 hover:bg-blue-800 duration-300 py-2 px-4 text-blue-100 rounded">
             Primary
             <span className="absolute bg-blue-500 text-blue-100 px-2 py-1 text-xs font-bold rounded-full -top-3 -right-3">
