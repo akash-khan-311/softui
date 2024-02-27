@@ -1,5 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import Form1 from "../../components/App/Forms/Form1";
+import Form10 from "../../components/App/Forms/Form10";
+import Form11 from "../../components/App/Forms/Form11";
 import Form2 from "../../components/App/Forms/Form2";
 import Form3 from "../../components/App/Forms/Form3";
 import Form4 from "../../components/App/Forms/Form4";
@@ -31,6 +33,9 @@ const Form = () => {
       <Form7/>
       <Form8/>
       <Form9/>
+      {/* Shoping Cart Form */}
+      <Form10/>
+      <Form11/>
     </div>
   );
 };
