@@ -23,7 +23,8 @@ const componentsItems = [
   "Pagination",
   "Spinner",
   "Stats",
-  "Table"
+  "Table",
+  "Toggle"
 ];
 
 const Sidebar = () => {
