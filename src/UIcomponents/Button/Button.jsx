@@ -5,6 +5,8 @@ import Button4 from "../../components/App/Buttons/Button4";
 import Button5 from "../../components/App/Buttons/Button5";
 import Button6 from "../../components/App/Buttons/Button6";
 import Button7 from "../../components/App/Buttons/Button7";
+import Button8 from "../../components/App/Buttons/Button8";
+import Button9 from "../../components/App/Buttons/Button9";
 
 
 const Button = () => {
@@ -16,8 +18,10 @@ const Button = () => {
       <Button4 />
       <Button5 />
       <Button6 />
-      <Button7/>
-   
+      <Button7 />
+      <Button8 />
+      <Button9/>
+      
     </div>
   );
 };
