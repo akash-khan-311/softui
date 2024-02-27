@@ -19,6 +19,7 @@ import Spinner from "./UIcomponents/Spinner/Spinner";
 import Stats from "./UIcomponents/Stats/Stats";
 import Pagination from "./UIcomponents/Pagination/Pagination";
 import Table from "./UIcomponents/Table/Table";
+import Toggle from "./UIcomponents/Toggle/Toggle";
 
 const Route = createBrowserRouter([
   { path: "*", element: <NotFound /> },
@@ -49,7 +50,8 @@ const Route = createBrowserRouter([
       { path: "stats", element: <Stats /> },
       {path:'hero', element: <Hero/>},
       {path: 'pagination', element: <Pagination/>},
-      {path: 'table', element: <Table/>}
+      {path: 'table', element: <Table/>},
+      {path: 'toggle', element: <Toggle/>}
     ],
   },
 ]);
