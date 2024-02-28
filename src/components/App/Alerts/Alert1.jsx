@@ -3,7 +3,7 @@ import CodeBox from "../../../Shared/CodeBox/CodeBox";
 const Alert1 = () => {
     return(
         <div>
-             <CodeBox stringCode={`
+             <CodeBox text={'Basic Alert'} stringCode={`
    {/* Success  */}
    <div className="p-6 max-w-sm mx-auto border-l-4 border-green-500 -6 rounded-r-xl bg-green-50">
        <div className="flex ">
