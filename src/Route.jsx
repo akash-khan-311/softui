@@ -61,8 +61,6 @@ const Route = createBrowserRouter([
       { path: "hero", element: <Hero /> },
       { path: "pagination", element: <Pagination /> },
       { path: "table", element: <Table /> },
-      { path: "toggle", element: <Toggle /> },
-
       { path: "alert", element: <Alert /> },
     ],
   },
