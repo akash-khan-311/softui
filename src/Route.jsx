@@ -22,6 +22,8 @@ import Stats from "./UIcomponents/Stats/Stats";
 import Table from "./UIcomponents/Table/Table";
 import Toggle from "./UIcomponents/Toggle/Toggle";
 import ToolTip from "./UIcomponents/ToolTips/ToolTip";
+import Badge from "./UIcomponents/Badge/Badge";
+import Alert from "./UIcomponents/Alert/Alert";
 
 const Route = createBrowserRouter([
   { path: "*", element: <NotFound /> },
@@ -56,6 +58,12 @@ const Route = createBrowserRouter([
       { path: "toggle", element: <Toggle /> },
       { path: "ToolTip", element: <ToolTip /> },
       { path: "badge", element: <Badge /> },
+      {path:'hero', element: <Hero/>},
+      {path: 'pagination', element: <Pagination/>},
+      {path: 'table', element: <Table/>},
+      {path: 'toggle', element: <Toggle/>},
+      {path: 'badge', element: <Badge/>},
+      {path: 'alert' , element: <Alert/>}
     ],
   },
 ]);

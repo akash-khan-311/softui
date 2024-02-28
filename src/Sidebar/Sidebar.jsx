@@ -8,6 +8,7 @@ import { Link, NavLink } from "react-router-dom";
 
 const componentsItems = [
   "Avatar",
+  "Alert",
   "Accordion",
   "Badge",
   "ToolTip",
