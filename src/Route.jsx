@@ -5,21 +5,23 @@ import Home from "./Pages/Home/Home";
 import NotFound from "./Pages/NotFound/NotFound";
 import Accordion from "./UIcomponents/Accordion/Accordion";
 import Avatar from "./UIcomponents/Avatar/Avatar";
+import Badge from "./UIcomponents/Badge/Badge";
 import Button from "./UIcomponents/Button/Button";
 import Card from "./UIcomponents/Card/Card";
 import Carousel from "./UIcomponents/Carousel/Carousel";
 import Checkbox from "./UIcomponents/CheckBox/Checkbox";
 import Footer from "./UIcomponents/Footer/Footer";
 import Form from "./UIcomponents/Form/Form";
+import Hero from "./UIcomponents/Hero/Hero";
 import Input from "./UIcomponents/Input/Input";
 import Modal from "./UIcomponents/Modal/Modal";
 import Navbar from "./UIcomponents/Navbar/Navbar";
-import Hero from "./UIcomponents/Hero/Hero";
+import Pagination from "./UIcomponents/Pagination/Pagination";
 import Spinner from "./UIcomponents/Spinner/Spinner";
 import Stats from "./UIcomponents/Stats/Stats";
-import Pagination from "./UIcomponents/Pagination/Pagination";
 import Table from "./UIcomponents/Table/Table";
 import Toggle from "./UIcomponents/Toggle/Toggle";
+import ToolTip from "./UIcomponents/ToolTips/ToolTip";
 import Badge from "./UIcomponents/Badge/Badge";
 import Alert from "./UIcomponents/Alert/Alert";
 
@@ -50,6 +52,12 @@ const Route = createBrowserRouter([
       { path: "navbar", element: <Navbar /> },
       { path: "spinner", element: <Spinner /> },
       { path: "stats", element: <Stats /> },
+      { path: "hero", element: <Hero /> },
+      { path: "pagination", element: <Pagination /> },
+      { path: "table", element: <Table /> },
+      { path: "toggle", element: <Toggle /> },
+      { path: "ToolTip", element: <ToolTip /> },
+      { path: "badge", element: <Badge /> },
       {path:'hero', element: <Hero/>},
       {path: 'pagination', element: <Pagination/>},
       {path: 'table', element: <Table/>},
