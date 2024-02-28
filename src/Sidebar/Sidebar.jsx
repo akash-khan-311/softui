@@ -132,7 +132,7 @@ const Sidebar = () => {
 
               <div
                 onClick={(e) => e.stopPropagation()}
-                className={`transition-all duration-300 ease-in-out grid ml-3  ${
+                className={`transition-all duration-300 pb-10 ease-in-out grid ml-3  ${
                   componentOpen
                     ? "grid-rows-[1fr] opacity-100"
                     : " grid grid-rows-[0fr] opacity-0"
