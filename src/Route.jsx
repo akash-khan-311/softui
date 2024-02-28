@@ -21,6 +21,7 @@ import Pagination from "./UIcomponents/Pagination/Pagination";
 import Table from "./UIcomponents/Table/Table";
 import Toggle from "./UIcomponents/Toggle/Toggle";
 import Badge from "./UIcomponents/Badge/Badge";
+import Alert from "./UIcomponents/Alert/Alert";
 
 const Route = createBrowserRouter([
   { path: "*", element: <NotFound /> },
@@ -53,7 +54,8 @@ const Route = createBrowserRouter([
       {path: 'pagination', element: <Pagination/>},
       {path: 'table', element: <Table/>},
       {path: 'toggle', element: <Toggle/>},
-      {path: 'badge', element: <Badge/>}
+      {path: 'badge', element: <Badge/>},
+      {path: 'alert' , element: <Alert/>}
     ],
   },
 ]);
