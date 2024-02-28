@@ -7,27 +7,27 @@ import { RiSettings4Fill } from "react-icons/ri";
 import { Link, NavLink } from "react-router-dom";
 
 const componentsItems = [
-  "Avatar",
-  "Alert",
   "Accordion",
+  "Alert",
+  "Avatar",
   "Badge",
-  "ToolTip",
   "Button",
+  "Card",
   "Carousel",
   "Checkbox",
-  "Card",
   "Form",
   "Footer",
   "Hero",
   "Input",
-  "Slider",
-  "Modal",
   "Navbar",
+  "Modal",
   "Pagination",
+  "Slider",
   "Spinner",
   "Stats",
   "Table",
   "Toggle",
+  "Tooltip",
 ];
 
 const Sidebar = () => {
@@ -48,6 +48,7 @@ const Sidebar = () => {
   };
   const handleLink = (e) => {
     e.stopPropagation();
+    window.scrollTo(0, 0);
   };
   return (
     <>
