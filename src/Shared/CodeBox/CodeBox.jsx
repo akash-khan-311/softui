@@ -18,7 +18,7 @@ const CodeBox = ({ children, stringCode, text }) => {
 
   return (
     <>
-      <div className={`w-full rounded-md h-fit  px-4 py-2 my-10`}>
+      <div className={`w-full rounded-md h-fit  px-4 py-2`}>
         <div className={`w-full rounded-md h-fit  px-4 py-1 my-10 `}>
           <h2 className="text-white text-3xl font-semibold mb-10">{text}</h2>
           <div className="flex gap-2 items-center justify-between rounded-t-lg border  backdrop-blur-2xl bg-white/30">
@@ -90,8 +90,8 @@ const CodeBox = ({ children, stringCode, text }) => {
                 ) : (
                   <div className="flex items-center gap-x-2">
                     <svg
-                     width="25"
-                     height="25"
+                      width="25"
+                      height="25"
                       viewBox="0 0 24 24"
                       fill="none"
                       xmlns="http://www.w3.org/2000/svg"

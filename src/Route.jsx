@@ -4,6 +4,7 @@ import Root from "./Layout/Root";
 import Home from "./Pages/Home/Home";
 import NotFound from "./Pages/NotFound/NotFound";
 import Accordion from "./UIcomponents/Accordion/Accordion";
+import Alert from "./UIcomponents/Alert/Alert";
 import Avatar from "./UIcomponents/Avatar/Avatar";
 import Badge from "./UIcomponents/Badge/Badge";
 import Button from "./UIcomponents/Button/Button";
@@ -22,9 +23,6 @@ import Stats from "./UIcomponents/Stats/Stats";
 import Table from "./UIcomponents/Table/Table";
 import Toggle from "./UIcomponents/Toggle/Toggle";
 import ToolTip from "./UIcomponents/ToolTips/ToolTip";
-
-import Alert from "./UIcomponents/Alert/Alert";
-
 const Route = createBrowserRouter([
   { path: "*", element: <NotFound /> },
   {
