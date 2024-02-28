@@ -10,6 +10,7 @@ const componentsItems = [
   "Avatar",
   "Accordion",
   "Badge",
+  "ToolTip",
   "Button",
   "Carousel",
   "Checkbox",
@@ -25,7 +26,7 @@ const componentsItems = [
   "Spinner",
   "Stats",
   "Table",
-  "Toggle"
+  "Toggle",
 ];
 
 const Sidebar = () => {
