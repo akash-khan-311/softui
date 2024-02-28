@@ -23,19 +23,19 @@ const Input2 = () => {
             type="text"
           />
           {/*  */}
-          <form className="flex ">
+          <form className="flex flex-wrap justify-center  ">
             <input
               name="email"
               type="email"
               autoComplete="email"
               placeholder="jane.doe@example.com"
-              className="px-4 py-2 rounded-l-lg bg-slate-700 focus:bg-slate-800 focus:text-slate-300 text-slate-400 placeholder-slate-400 focus:ring-0 focus:outline-none"
+              className="px-4 py-2 mb-2 sm:mb-0 rounded-l-lg rounded-r-lg sm:rounded-r-none bg-slate-700 focus:bg-slate-800 focus:text-slate-300 text-slate-400 placeholder-slate-400 focus:ring-0 focus:outline-none"
               required
-              defaultValue
+              
             />
             <button
               type="submit"
-              className="px-4 py-2 text-sm text-white font-bold uppercase bg-blue-600 rounded-r-lg text-slate-300 active:bg-blue-800"
+              className="px-4 py-2 text-sm text-white font-bold uppercase bg-blue-600 rounded-r-lg  rounded-lg sm:rounded-l-none text-slate-300 active:bg-blue-800"
             >
               Subscribe
             </button>
