@@ -7,24 +7,27 @@ import { RiSettings4Fill } from "react-icons/ri";
 import { Link, NavLink } from "react-router-dom";
 
 const componentsItems = [
-  "Avatar",
   "Accordion",
+  "Alert",
+  "Avatar",
+  "Badge",
   "Button",
+  "Card",
   "Carousel",
   "Checkbox",
-  "Card",
   "Form",
   "Footer",
   "Hero",
   "Input",
-  "Slider",
-  "Modal",
   "Navbar",
+  "Modal",
   "Pagination",
+  "Slider",
   "Spinner",
   "Stats",
   "Table",
-  "Toggle"
+  "Toggle",
+  "Tooltip",
 ];
 
 const Sidebar = () => {
@@ -45,6 +48,7 @@ const Sidebar = () => {
   };
   const handleLink = (e) => {
     e.stopPropagation();
+    window.scrollTo(0, 0);
   };
   return (
     <>
@@ -129,7 +133,7 @@ const Sidebar = () => {
 
               <div
                 onClick={(e) => e.stopPropagation()}
-                className={`transition-all duration-300 ease-in-out grid ml-3  ${
+                className={`transition-all duration-300 pb-10 ease-in-out grid ml-3  ${
                   componentOpen
                     ? "grid-rows-[1fr] opacity-100"
                     : " grid grid-rows-[0fr] opacity-0"
