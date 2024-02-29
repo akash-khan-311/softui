@@ -33,7 +33,7 @@ const Drawer = ()=> {
               </div>
 
               {/* Overlay */}
-              {isOpen && <div className="fixed top-0 bottom-0 left-0 right-0 backdrop-blur-sm bg-black/10 z-10" onClick={toggleDrawer}></div>}
+              {isOpen && <div className="fixed top-0 bottom-0 left-0 right-0 backdrop-blur-sm bg-black/10 z-30" onClick={toggleDrawer}></div>}
 
           </div>
         </>
@@ -42,7 +42,9 @@ const Drawer = ()=> {
 export default Drawer;       
 
 `}>
-             <button onClick={toggleDrawer} className="text-white font-medium text-base inline-block outline-none  cursor-pointer  transition-shadow bg-gradient-to-br from-blue-300 to-blue-700 hover:from-blue-400 hover:to-blue-800 hover:shadow-md active:shadow-inner active:translate-y-0.1 transform-gpu border-none rounded-md px-8 py-3">Top Side</button>
+            <div className="flex justify-center">
+            <button onClick={toggleDrawer} className="text-white font-medium text-base inline-block outline-none  cursor-pointer  transition-shadow bg-gradient-to-br from-blue-300 to-blue-700 hover:from-blue-400 hover:to-blue-800 hover:shadow-md active:shadow-inner active:translate-y-0.1 transform-gpu border-none rounded-md px-8 py-3">Top Side</button>
+            </div>
              </CodeBox>
              <div className="relative">
           {/* Drawer */}
@@ -60,7 +62,7 @@ export default Drawer;
           </div>
 
           {/* Overlay */}
-          {isOpen && <div className="fixed top-0 bottom-0 left-0 right-0 backdrop-blur-sm bg-black/10 z-10" onClick={toggleDrawer}></div>}
+          {isOpen && <div className="fixed top-0 bottom-0 left-0 right-0 backdrop-blur-sm bg-black/10 z-30" onClick={toggleDrawer}></div>}
 
         </div>
         </>
