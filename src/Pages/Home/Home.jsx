@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Home = () => {
   return (
     <>
-      <div className="container mx-auto relative ">
+      <div className="max-w-xxl mx-auto relative ">
         <div
           aria-hidden="true"
           className="absolute inset-0 top-32 h-max w-full m-auto grid grid-cols-2 gap-20 md:gap-60 opacity-40"
@@ -13,11 +13,8 @@ const Home = () => {
           <div className="blur-[100px] h-56 bg-gradient-to-r from-purple-600 to-purple-900"></div>
         </div>
         <div className="text-white text-center">
-          <div className="max-w-[60rem] mx-auto mt-40 relative space-y-5 z-40">
-
-
-             <h1 className="lg:text-6xl md:text-4xl text-3xl font-bold logo-text leading-relaxed">
-
+          <div className="max-w-[60rem] mx-auto mt-40 relative space-y-5 z-10">
+            <h1 className="lg:text-6xl md:text-4xl text-3xl font-bold logo-text leading-relaxed">
               Embark on a Journey of Design Excellence with
               <span className="">Soft UI</span> For Coding 20x Faster
             </h1>
