@@ -3,7 +3,7 @@ import Navbar from "../components/Navbar";
 
 const Root = () => {
   return (
-    <div className="relative z-40 ">
+    <div className="relative z-30 ">
       <Navbar />
       <div className="lg:px-0 px-5">
         <Outlet />

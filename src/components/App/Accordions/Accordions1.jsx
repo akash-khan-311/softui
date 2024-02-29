@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { FaAngleDown } from "react-icons/fa";
+
 import CodeBox from "../../../Shared/CodeBox/CodeBox";
 const accordionsData = [
   {
@@ -54,7 +54,16 @@ const Accordions1 = () => {
                                 className="flex h-full w-full justify-between py-3 items-center text-white">
                             <h2 className="text-[18px]">{accordion.title}</h2>
                             <span>
-                            <FaAngleDown className={\`transition-all ease-in-out duration-300 text-3xl \${accordionOpen === i ? "rotate-180" : "rotate-0"}\`}/>
+                              <svg
+                                className={\`w-10 h-10 fill-white transition-all ease-in-out duration-300 \${
+                                  accordionOpen === i ? "rotate-180" : "rotate-0"
+                                }\`}
+                                viewBox="0 0 1792 1792"
+                                width="1792"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path d="M1395 736q0 13-10 23l-466 466q-10 10-23 10t-23-10l-466-466q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l393 393 393-393q10-10 23-10t23 10l50 50q10 10 10 23z" />
+                              </svg>
                             </span>
                         </button>
                         <div className={\`grid text-gray-500 transition-all ease-in-out duration-300 text-left \${accordionOpen === i ? "grid-rows-[1fr] opacity-100" : "grid-rows-[0fr] opacity-0"} \`}>
@@ -81,12 +90,17 @@ export default Accordion;
                 className="flex h-full w-full justify-between py-3 items-center text-white"
               >
                 <h2 className="text-[18px]">{accordion.title}</h2>
-                <span className="">
-                  <FaAngleDown
-                    className={` transition-all ease-in-out duration-300 text-3xl  ${
+                <span>
+                  <svg
+                    className={`w-10 h-10 fill-white transition-all ease-in-out duration-300 ${
                       accordionOpen === i ? "rotate-180" : "rotate-0"
                     }`}
-                  />
+                    viewBox="0 0 1792 1792"
+                    width="1792"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path d="M1395 736q0 13-10 23l-466 466q-10 10-23 10t-23-10l-466-466q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l393 393 393-393q10-10 23-10t23 10l50 50q10 10 10 23z" />
+                  </svg>
                 </span>
               </button>
               <div
