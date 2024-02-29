@@ -12,14 +12,14 @@ const Button13 = () => {
             Hover Me
           </button>
           {/*  */}
-          <button className="group relative cursor-pointer align-middle no-underline text-[inherit] p-0 border-0 outline-none bg-transparent w-48 h-auto flex items-center">
+          <button className="group relative cursor-pointer align-middle no-underline text-[inherit] p-0 outline-none bg-transparent w-48 h-auto flex items-center">
             <span
               className="group-hover:w-full group-hover:translate-x-1 translate-y-0 group-hover:translate-y-0 group-hover:bg-black transition-all duration-[0.45s] ease-[cubic-bezier(0.65,0,0.076,1)] relative block w-12 h-12 m-0 rounded-[1.625rem] bg-[#282936]"
               aria-hidden="true"
             >
-              <span className="icon arrow  bg-transparent group-hover:translate-x-4 translate-y-0 group-hover:translate-y-0 group-hover:bg-white transition-all bg-none absolute m-auto inset-y-0 duration-[0.45s] ease-[cubic-bezier(0.65,0,0.076,1)] w-[1.125rem] h-0.5 left-2.5 before:absolute before:content-[''] before:top-[-0.29rem] before:w-2.5 before:h-2.5 before:rotate-45 before:border-r-2 before:border-r-white before:border-t-2 before:border-t-white before:border-solid before:right-px"></span>
+              <span className="bg-transparent group-hover:translate-x-4 translate-y-0 group-hover:translate-y-0 group-hover:bg-white transition-all bg-none absolute m-auto inset-y-0 duration-[0.45s] ease-[cubic-bezier(0.65,0,0.076,1)] w-[1.125rem] h-0.5 left-2.5 before:absolute before:content-[''] before:top-[-0.29rem] before:w-2.5 before:h-2.5 before:rotate-45 before:border-r-2 before:border-r-white before:border-t-2 before:border-t-white before:border-solid before:right-px"></span>
             </span>
-            <span className="button-text group-hover:text-white transition-all duration-[0.45s] ease-[cubic-bezier(0.65,0,0.076,1)] absolute text-[#282936] font-bold leading-[1.6] text-center uppercase ml-[1.85rem] mr-0 my-0 px-0 py-3 inset-0">
+            <span className="text-white group-hover:text-white transition-all duration-[0.45s] ease-[cubic-bezier(0.65,0,0.076,1)] absolute  font-bold leading-[1.6] text-center uppercase ml-[1.85rem] mr-0 my-0 px-0 py-3 inset-0">
               Learn More
             </span>
           </button>
