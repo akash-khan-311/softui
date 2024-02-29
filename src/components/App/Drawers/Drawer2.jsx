@@ -38,7 +38,7 @@ const Drawer = ()=> {
           </div>
 
           {/* Overlay */}
-          {isOpen && <div className="fixed top-0 bottom-0 left-0 right-0 backdrop-blur-sm bg-black/10 z-10" onClick={toggleDrawer}></div>}
+          {isOpen && <div className="fixed top-0 bottom-0 left-0 right-0 backdrop-blur-sm bg-black/10 z-30" onClick={toggleDrawer}></div>}
 
         </div>
         </>
@@ -102,7 +102,7 @@ export default Drawer;
         {/* Overlay */}
         {isOpen && (
           <div
-            className="fixed top-0 bottom-0 left-0 right-0 backdrop-blur-sm bg-black/10 z-10"
+            className="fixed top-0 bottom-0 left-0 right-0 backdrop-blur-sm bg-black/10 z-30"
             onClick={toggleDrawer}
           ></div>
         )}
