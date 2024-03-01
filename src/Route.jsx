@@ -24,7 +24,8 @@ import Table from "./UIcomponents/Table/Table";
 import Toggle from "./UIcomponents/Toggle/Toggle";
 import ToolTip from "./UIcomponents/ToolTips/ToolTip";
 import Drawer from "./UIcomponents/Drawer/Drawer";
-import CallToAction from "./UIcomponents/CTA/CTA";
+import Testimonial from "./UIcomponents/Testimonial/Testimonial";
+
 const Route = createBrowserRouter([
   { path: "*", element: <NotFound /> },
   {
@@ -63,7 +64,7 @@ const Route = createBrowserRouter([
       { path: "table", element: <Table /> },
       { path: "alert", element: <Alert /> },
       {path:'drawer' , element: <Drawer/>},
-      // {path: 'calltoaction', element: <CallToAction/>}
+      {path:'testimonials', element: <Testimonial/>}
     ],
   },
 ]);
