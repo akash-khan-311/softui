@@ -13,6 +13,7 @@ const componentsItems = [
   "Badge",
   "Button",
   "Card",
+  "CTA",
   "Carousel",
   "Checkbox",
   "Drawer",
@@ -27,6 +28,7 @@ const componentsItems = [
   "Spinner",
   "Stats",
   "Table",
+  "Testimonials",
   "Toggle",
   "Tooltip",
 ];

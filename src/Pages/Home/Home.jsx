@@ -13,7 +13,7 @@ const Home = () => {
           <div className="blur-[100px] h-56 bg-gradient-to-r from-purple-600 to-purple-900"></div>
         </div>
         <div className="text-white text-center">
-          <div className="max-w-[60rem] mx-auto mt-40 relative space-y-5 z-10">
+          <div className="max-w-[60rem] mx-auto mt-44 relative space-y-5 z-10">
             <h1 className="lg:text-6xl md:text-4xl text-3xl font-bold logo-text leading-relaxed">
               Embark on a Journey of Design Excellence with
               <span className="">Soft UI</span> For Coding 20x Faster

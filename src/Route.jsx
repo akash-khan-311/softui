@@ -24,6 +24,8 @@ import Table from "./UIcomponents/Table/Table";
 import Toggle from "./UIcomponents/Toggle/Toggle";
 import ToolTip from "./UIcomponents/ToolTips/ToolTip";
 import Drawer from "./UIcomponents/Drawer/Drawer";
+import Testimonial from "./UIcomponents/Testimonial/Testimonial";
+
 const Route = createBrowserRouter([
   { path: "*", element: <NotFound /> },
   {
@@ -61,7 +63,8 @@ const Route = createBrowserRouter([
       { path: "pagination", element: <Pagination /> },
       { path: "table", element: <Table /> },
       { path: "alert", element: <Alert /> },
-      {path:'drawer' , element: <Drawer/>}
+      {path:'drawer' , element: <Drawer/>},
+      {path:'testimonials', element: <Testimonial/>}
     ],
   },
 ]);
