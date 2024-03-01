@@ -7,7 +7,6 @@ const Drawer1 = () => {
   const toggleDrawer = () => {
     setIsOpen(!isOpen);
   };
-
   return (
     <>
       <CodeBox
