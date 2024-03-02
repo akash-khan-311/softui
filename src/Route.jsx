@@ -8,9 +8,11 @@ import Alert from "./UIcomponents/Alert/Alert";
 import Avatar from "./UIcomponents/Avatar/Avatar";
 import Badge from "./UIcomponents/Badge/Badge";
 import Button from "./UIcomponents/Button/Button";
+import CTA from "./UIcomponents/CTA/CTA";
 import Card from "./UIcomponents/Card/Card";
 import Carousel from "./UIcomponents/Carousel/Carousel";
 import Checkbox from "./UIcomponents/CheckBox/Checkbox";
+import Drawer from "./UIcomponents/Drawer/Drawer";
 import Footer from "./UIcomponents/Footer/Footer";
 import Form from "./UIcomponents/Form/Form";
 import Hero from "./UIcomponents/Hero/Hero";
@@ -18,14 +20,13 @@ import Input from "./UIcomponents/Input/Input";
 import Modal from "./UIcomponents/Modal/Modal";
 import Navbar from "./UIcomponents/Navbar/Navbar";
 import Pagination from "./UIcomponents/Pagination/Pagination";
+import Progress from "./UIcomponents/Progress/Progress";
 import Spinner from "./UIcomponents/Spinner/Spinner";
 import Stats from "./UIcomponents/Stats/Stats";
 import Table from "./UIcomponents/Table/Table";
+import Testimonial from "./UIcomponents/Testimonial/Testimonial";
 import Toggle from "./UIcomponents/Toggle/Toggle";
 import ToolTip from "./UIcomponents/ToolTips/ToolTip";
-import Drawer from "./UIcomponents/Drawer/Drawer";
-import Testimonial from "./UIcomponents/Testimonial/Testimonial";
-import Progress from "./UIcomponents/Progress/Progress";
 
 const Route = createBrowserRouter([
   { path: "*", element: <NotFound /> },
@@ -64,9 +65,10 @@ const Route = createBrowserRouter([
       { path: "pagination", element: <Pagination /> },
       { path: "table", element: <Table /> },
       { path: "alert", element: <Alert /> },
-      {path:'drawer' , element: <Drawer/>},
-      {path:'testimonials', element: <Testimonial/>},
-      {path: 'progress', element: <Progress/>}
+      { path: "drawer", element: <Drawer /> },
+      { path: "testimonials", element: <Testimonial /> },
+      { path: "progress", element: <Progress /> },
+      { path: "cta", element: <CTA /> },
     ],
   },
 ]);
