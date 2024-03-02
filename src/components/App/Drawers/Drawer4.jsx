@@ -17,7 +17,7 @@ const Drawer = ()=> {
     }
     return(
         <>
-          <button onClick={toggleDrawer} className="text-white font-medium text-base inline-block outline-none  cursor-pointer  transition-shadow bg-gradient-to-br from-green-300 to-green-700 hover:from-green-400 hover:to-green-800 hover:shadow-md active:shadow-inner active:translate-y-0.1 transform-gpu border-none rounded-md px-8 py-3">Top Side</button>
+          <button onClick={toggleDrawer} className="text-white font-medium text-base inline-block outline-none  cursor-pointer  transition-shadow bg-gradient-to-br from-green-300 to-green-700 hover:from-green-400 hover:to-green-800 hover:shadow-md active:shadow-inner active:translate-y-0.1 transform-gpu border-none rounded-md px-8 py-3">Bottom Side</button>
           <div className="relative">
               {/* Drawer */}
               <div className={\`fixed  w-full left-0 bottom-0 z-50 bg-green-900 text-white p-6 h-44 md:h-52 lg:h-56 overflow-hidden transition-transform duration-500 transform \${isOpen ? 'translate-y-0' : 'translate-y-full'}\`}>
@@ -49,7 +49,7 @@ export default Drawer;
             onClick={toggleDrawer}
             className="text-white font-medium text-base inline-block outline-none  cursor-pointer  transition-shadow bg-gradient-to-br from-green-300 to-green-700 hover:from-green-400 hover:to-green-800 hover:shadow-md active:shadow-inner active:translate-y-0.1 transform-gpu border-none rounded-md px-8 py-3"
           >
-            Top Side
+            Bottom Side
           </button>
         </div>
       </CodeBox>
