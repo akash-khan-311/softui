@@ -4,10 +4,10 @@ const Checkbox5 = () => {
   return (
     <div>
       <CodeBox stringCode={`
-      <div className="w-80 rounded-2xl bg-slate-900">
+      <div className="w-80 rounded-2xl  backdrop-blur-lg bg-white/10">
       <div className="flex flex-col gap-2 p-8">
         <input
-          className="bg-slate-900 w-full rounded-lg border border-gray-300 px-4 py-3 focus:outline-none focus:ring-2 focus:ring-gray-700 focus:ring-offset-2 focus:ring-offset-gray-800"
+          className="w-full rounded-lg border border-gray-300 px-4 py-3 focus:outline-none focus:ring-2 focus:ring-gray-700 focus:ring-offset-2 focus:ring-offset-gray-800"
           placeholder="Email"
         />
         <label className="flex cursor-pointer items-center justify-between p-1 text-white">
@@ -37,10 +37,10 @@ const Checkbox5 = () => {
     </div>
       `}>
         <div className="flex justify-center items-center">
-          <div className="w-80 rounded-2xl bg-slate-900">
+          <div className="w-80 rounded-2xl backdrop-blur-lg bg-white/10">
             <div className="flex flex-col gap-2 p-8">
               <input
-                className="bg-slate-900 w-full rounded-lg border border-gray-300 px-4 py-3 focus:outline-none focus:ring-2 focus:ring-gray-700 focus:ring-offset-2 focus:ring-offset-gray-800"
+                className="w-full rounded-lg border border-gray-300 px-4 py-3 focus:outline-none focus:ring-2 focus:ring-gray-700 focus:ring-offset-2 focus:ring-offset-gray-800"
                 placeholder="Email"
               />
               <label className="flex cursor-pointer items-center justify-between p-1 text-white">
