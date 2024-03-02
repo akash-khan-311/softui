@@ -24,6 +24,7 @@ const componentsItems = [
   "Navbar",
   "Modal",
   "Pagination",
+  "Progress",
   "Slider",
   "Spinner",
   "Stats",
