@@ -27,6 +27,7 @@ import Table from "./UIcomponents/Table/Table";
 import Testimonial from "./UIcomponents/Testimonial/Testimonial";
 import Toggle from "./UIcomponents/Toggle/Toggle";
 import ToolTip from "./UIcomponents/ToolTips/ToolTip";
+import Skeleton from "./UIcomponents/Skeleton/Skeleton";
 
 const Route = createBrowserRouter([
   { path: "*", element: <NotFound /> },
@@ -69,6 +70,7 @@ const Route = createBrowserRouter([
       { path: "testimonials", element: <Testimonial /> },
       { path: "progress", element: <Progress /> },
       { path: "cta", element: <CTA /> },
+      {path:'skeleton', element: <Skeleton/>}
     ],
   },
 ]);

@@ -25,6 +25,7 @@ const componentsItems = [
   "Modal",
   "Pagination",
   "Progress",
+  "Skeleton",
   "Slider",
   "Spinner",
   "Stats",
