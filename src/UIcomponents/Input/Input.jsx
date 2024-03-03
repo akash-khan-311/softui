@@ -1,4 +1,5 @@
 import Input1 from "../../components/App/Inputs/Input1";
+import Input10 from "../../components/App/Inputs/Input10";
 import Input2 from "../../components/App/Inputs/Input2";
 import Input3 from "../../components/App/Inputs/Input3";
 import Input4 from "../../components/App/Inputs/Input4";
@@ -6,6 +7,7 @@ import Input5 from "../../components/App/Inputs/Input5";
 import Input6 from "../../components/App/Inputs/Input6";
 import Input7 from "../../components/App/Inputs/Input7";
 import Input8 from "../../components/App/Inputs/Input8";
+import Input9 from "../../components/App/Inputs/Input9";
 
 const Input = () => {
   return (
@@ -24,6 +26,8 @@ const Input = () => {
       <Input6/>
       <Input7/>
       <Input8/>
+      <Input9/>
+      <Input10/>
     </div>
   );
 };
