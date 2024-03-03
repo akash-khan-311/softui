@@ -18,6 +18,7 @@ const Tab1 = () => {
   return (
     <>
       <CodeBox
+      text={'Simple Tabs'}
         stringCode={`import { useState } from "react";
 const tabData = [
   { label: "Tab-1" },
@@ -42,6 +43,8 @@ const Tabs = () => {
       </div>
     )
 }
+
+export default Tabs
 `}
       >
         <div className="border bg-teal-300 w-3/5 mx-auto rounded-md">
