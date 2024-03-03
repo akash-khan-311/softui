@@ -10,10 +10,10 @@ import JSXCode from "../JSXCode/JSXCode";
 import Preview from "../PreviewBox/Preview";
 
 const devices = [
-  { label: "xs", value: "max-w-xs mx-auto ", icon: <FaMobileAlt /> },
-  { label: "sm", value: "max-w-sm mx-auto ", icon: <FaMobileAlt /> },
-  { label: "md", value: "max-w-md mx-auto", icon: <IoIosTabletLandscape /> },
-  { label: "lg", value: "max-w-lg mx-auto", icon: <IoMdLaptop /> },
+  { label: "xs", value: "sm:max-w-xs mx-auto ", icon: <FaMobileAlt /> },
+  { label: "sm", value: "sm:max-w-sm mx-auto ", icon: <FaMobileAlt /> },
+  { label: "md", value: "md:max-w-md mx-auto", icon: <IoIosTabletLandscape /> },
+  { label: "lg", value: "lg:max-w-lg mx-auto", icon: <IoMdLaptop /> },
   { label: "xl", value: "w-full mx-auto", icon: <FiMonitor /> },
 ];
 
@@ -166,7 +166,9 @@ const CodeBox = ({ children, stringCode, text }) => {
                 <JSXCode stringCode={stringCode}></JSXCode>
               </div>
             ) : (
-              <Preview selectedDevice={selectedDevice}>{children}</Preview>
+              <div className={`${selectedDevice} mx-auto`}>
+                <Preview>{children}</Preview>
+              </div>
             )}
           </div>
         </div>
