@@ -20,7 +20,7 @@ const Input9 = () => {
     </div>
   </div>`}>
       <div className="bg-white flex justify-center items-center mx-auto p-4 rounded-lg max-w-[350px]">
-        <label className="text-gray-600 text-sm">Phone</label>
+        <label className="text-gray-700 text-sm">Phone</label>
         <div className="relative mt-2 max-w-xs text-gray-500">
           <div className="absolute inset-y-0 left-3 my-auto h-6 flex items-center border-r pr-2">
             <select className="text-sm outline-none rounded-lg h-full">

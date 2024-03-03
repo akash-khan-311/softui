@@ -1,4 +1,5 @@
 import Input1 from "../../components/App/Inputs/Input1";
+import Input10 from "../../components/App/Inputs/Input10";
 import Input2 from "../../components/App/Inputs/Input2";
 import Input3 from "../../components/App/Inputs/Input3";
 import Input4 from "../../components/App/Inputs/Input4";
@@ -26,6 +27,7 @@ const Input = () => {
       <Input7/>
       <Input8/>
       <Input9/>
+      <Input10/>
     </div>
   );
 };
