@@ -29,6 +29,7 @@ const componentsItems = [
   "Slider",
   "Spinner",
   "Stats",
+  "Tab",
   "Table",
   "Testimonials",
   "Toggle",
