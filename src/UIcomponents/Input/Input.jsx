@@ -6,6 +6,7 @@ import Input5 from "../../components/App/Inputs/Input5";
 import Input6 from "../../components/App/Inputs/Input6";
 import Input7 from "../../components/App/Inputs/Input7";
 import Input8 from "../../components/App/Inputs/Input8";
+import Input9 from "../../components/App/Inputs/Input9";
 
 const Input = () => {
   return (
@@ -24,6 +25,7 @@ const Input = () => {
       <Input6/>
       <Input7/>
       <Input8/>
+      <Input9/>
     </div>
   );
 };
