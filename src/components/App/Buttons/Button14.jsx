@@ -4,23 +4,11 @@ const Button14 = () => {
   return (
     <>
       <CodeBox
-        text={"Hello World Button"}
-        stringCode={`<button className="py-1 px-5 bg-red-200 transition-all duration-300 hover:bg-red-400">Hello World</button>
-<button className="py-1 px-5 bg-red-200 transition-all duration-300 hover:bg-red-400">Hello World</button>
-<button className="py-1 px-5 bg-red-200 transition-all duration-300 hover:bg-red-400">Hello World</button>`}
+        stringCode={`<button className="py-2 px-6 bg-blue-gray-700 rounded-lg transition-all duration-300 hover:bg-blue-gray-500">Hello World</button>`}
       >
-        <div className="flex justify-evenly items-center">
-            
-          <button className="py-1 px-5 bg-red-200 transition-all duration-300 hover:bg-red-400">
-            Hello World
-          </button>
-          <button className="py-1 px-5 bg-red-200 transition-all duration-300 hover:bg-red-400">
-            Hello World
-          </button>
-          <button className="py-1 px-5 bg-red-200 transition-all duration-300 hover:bg-red-400">
-            Hello World
-          </button>
-        </div>
+        <button className="py-2 px-6 bg-blue-gray-700 rounded-lg transition-all duration-300 hover:bg-blue-gray-500 text-white">
+          Hello World
+        </button>
       </CodeBox>
     </>
   );
