@@ -5,6 +5,7 @@ import Navbar4 from "../../components/App/Navbar/Navbar4";
 import Navbar5 from "../../components/App/Navbar/Navbar5";
 import Navbar6 from "../../components/App/Navbar/Navbar6";
 import Navbar7 from "../../components/App/Navbar/Navbar7";
+import Navbar8 from "../../components/App/Navbar/Navbar8";
 
 const Navbar = () => {
   return (
@@ -23,6 +24,7 @@ const Navbar = () => {
       <Navbar6 />
       {/*  */}
       <Navbar7/>
+      <Navbar8/>
     </div>
   );
 };
