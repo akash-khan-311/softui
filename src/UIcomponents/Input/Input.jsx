@@ -1,6 +1,7 @@
 import Input1 from "../../components/App/Inputs/Input1";
 import Input10 from "../../components/App/Inputs/Input10";
 import Input11 from "../../components/App/Inputs/Input11";
+import Input12 from "../../components/App/Inputs/Input12";
 import Input2 from "../../components/App/Inputs/Input2";
 import Input3 from "../../components/App/Inputs/Input3";
 import Input4 from "../../components/App/Inputs/Input4";
@@ -21,6 +22,8 @@ const Input = () => {
       <Input3 />
       {/* Outlined Input */}
       <Input4 />
+      {/* Select Input */}
+      <Input12/>
       {/* Input Variants */}
       <Input5 />
       {/* Upload File Input */}
