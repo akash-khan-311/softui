@@ -2,6 +2,8 @@
 import Form1 from "../../components/App/Forms/Form1";
 import Form10 from "../../components/App/Forms/Form10";
 import Form11 from "../../components/App/Forms/Form11";
+import Form12 from "../../components/App/Forms/Form12";
+import Form13 from "../../components/App/Forms/Form13";
 import Form2 from "../../components/App/Forms/Form2";
 import Form3 from "../../components/App/Forms/Form3";
 import Form4 from "../../components/App/Forms/Form4";
@@ -18,6 +20,8 @@ const Form = () => {
         Let's Explore All Form
       </h2>
       {/* Default Login Form */}
+      <Form12 />
+      <Form13 />
       <Form1 />
       {/*Login Form With Social Button  */}
       <Form2 />
