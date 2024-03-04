@@ -7,12 +7,14 @@ import Hero5 from "../../components/App/Hero/Hero5";
 import Hero6 from "../../components/App/Hero/Hero6";
 import Hero7 from "../../components/App/Hero/Hero7";
 
+
 const Hero = () => {
   return (
     <div>
       <h1 className="text-4xl text-white text-center font-semibold mt-10">
         Let's Explore All Hero Components
       </h1>
+      
       <Hero1 />
       <Hero2 />
       <Hero3 />

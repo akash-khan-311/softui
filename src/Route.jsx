@@ -29,6 +29,7 @@ import Toggle from "./UIcomponents/Toggle/Toggle";
 import ToolTip from "./UIcomponents/ToolTips/ToolTip";
 import Skeleton from "./UIcomponents/Skeleton/Skeleton";
 import Tab from "./UIcomponents/Tab/Tab";
+import ErrorPages from "./UIcomponents/Error Pages/ErrorPages";
 
 const Route = createBrowserRouter([
   { path: "*", element: <NotFound /> },
@@ -73,6 +74,7 @@ const Route = createBrowserRouter([
       { path: "cta", element: <CTA /> },
       {path:'skeleton', element: <Skeleton/>},
       {path:'tab', element: <Tab/>},
+      {path: 'error pages', element: <ErrorPages/>}
     ],
   },
 ]);
