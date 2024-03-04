@@ -1,5 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import Hero1 from "../../components/App/Hero/Hero1";
+
 import { Hero2 } from "../../components/App/Hero/Hero2";
 import { Hero3 } from "../../components/App/Hero/Hero3";
 import Hero4 from "../../components/App/Hero/Hero4";
@@ -7,6 +8,7 @@ import Hero5 from "../../components/App/Hero/Hero5";
 import Hero6 from "../../components/App/Hero/Hero6";
 import Hero7 from "../../components/App/Hero/Hero7";
 import Hero8 from "../../components/App/Hero/Hero8";
+import Hero9 from "../../components/App/Hero/Hero9";
 
 
 const Hero = () => {
@@ -15,6 +17,8 @@ const Hero = () => {
       <h1 className="text-4xl text-white text-center font-semibold mt-10">
         Let's Explore All Hero Components
       </h1>
+      
+      <Hero9 />
       
       <Hero8 />
       <Hero1 />
