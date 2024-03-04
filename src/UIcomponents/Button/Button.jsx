@@ -3,6 +3,8 @@ import Button10 from "../../components/App/Buttons/Button10";
 import Button11 from "../../components/App/Buttons/Button11";
 import Button12 from "../../components/App/Buttons/Button12";
 import Button13 from "../../components/App/Buttons/Button13";
+
+
 import Button2 from "../../components/App/Buttons/Button2";
 import Button3 from "../../components/App/Buttons/Button3";
 import Button4 from "../../components/App/Buttons/Button4";
@@ -15,6 +17,7 @@ import Button9 from "../../components/App/Buttons/Button9";
 const Button = () => {
   return (
     <div className="flex flex-col gap-5 ">
+   
       <Button1 />
       <Button2 />
       <Button13 />
@@ -28,6 +31,7 @@ const Button = () => {
       <Button10 />
       <Button11 />
       <Button12 />
+      
     </div>
   );
 };
