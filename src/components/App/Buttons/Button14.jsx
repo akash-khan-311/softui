@@ -1,16 +1,12 @@
 import CodeBox from "../../../Shared/CodeBox/CodeBox";
 
 const Button14 = () => {
-  return (
+  return(
     <>
-      <CodeBox
-        stringCode={`<button className="py-2 px-6 bg-blue-gray-700 rounded-lg transition-all duration-300 hover:bg-blue-gray-500">Hello World</button>`}
-      >
-        <button className="py-2 px-6 bg-blue-gray-700 rounded-lg transition-all duration-300 hover:bg-blue-gray-500 text-white">
-          Hello World
-        </button>
-      </CodeBox>
+       <CodeBox>
+        <button className="py-2 px-6 rounded-md text-white hover:bg-blue-gray-400 bg-blue-gray-800">Hello Duniya</button>
+       </CodeBox>
     </>
-  );
-};
+  )
+}
 export default Button14;
