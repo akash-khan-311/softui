@@ -31,7 +31,7 @@ export default function CTA1() {
             </h2>
             <p className="mt-6 mx-auto max-w-2xl text-lg text-gray-100"> Like you push a commit </p>
           </div>
-          <a href="#" className="w-auto inline-block mt-5 mx-auto rounded-md border border-transparent px-5 py-3 bg-gray-900 text-base font-medium text-white shadow hover:bg-black focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-rose-500 sm:px-10">
+          <a href="#!" className="w-auto inline-block mt-5 mx-auto rounded-md border border-transparent px-5 py-3 bg-gray-900 text-base font-medium text-white shadow hover:bg-black focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-rose-500 sm:px-10">
             Get started →
           </a>
         </div>
@@ -115,7 +115,7 @@ export default function CTA1() {
                     </p>
                   </div>
                   <a
-                    href="#"
+                    href="#!"
                     className="w-auto inline-block mt-5 mx-auto rounded-md border border-transparent px-5 py-3 bg-gray-900 text-base font-medium text-white shadow hover:bg-black focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-rose-500 sm:px-10"
                   >
                     Get started →

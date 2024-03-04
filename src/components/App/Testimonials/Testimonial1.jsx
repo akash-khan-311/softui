@@ -16,7 +16,7 @@ const Testimonial1 = () => {
       loading="lazy"
     />
     <a
-      href="#"
+      href="#!"
       target="_blank"
       className="inline-block font-bold tracking-tight"
     >

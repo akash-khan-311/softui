@@ -61,8 +61,8 @@ const Table3 = () => {
         super.man@example.com
       </td>
       <td className="px-6 py-4 whitespace-nowrap  text-sm font-medium">
-        <a href="#" className="text-indigo-600 hover:text-indigo-900">Edit</a>
-        <a href="#" className="ml-2 text-red-600 hover:text-red-900">Delete</a>
+        <a href="#!" className="text-indigo-600 hover:text-indigo-900">Edit</a>
+        <a href="#!" className="ml-2 text-red-600 hover:text-red-900">Delete</a>
       </td>
     </tr>
     <tr>
@@ -97,8 +97,8 @@ const Table3 = () => {
         super.man@example.com
       </td>
       <td className="px-6 py-4 whitespace-nowrap  text-sm font-medium">
-        <a href="#" className="text-indigo-600 hover:text-indigo-900">Edit</a>
-        <a href="#" className="ml-2 text-red-600 hover:text-red-900">Delete</a>
+        <a href="#!" className="text-indigo-600 hover:text-indigo-900">Edit</a>
+        <a href="#!" className="ml-2 text-red-600 hover:text-red-900">Delete</a>
       </td>
     </tr>
     <tr>
@@ -133,8 +133,8 @@ const Table3 = () => {
         super.man@example.com
       </td>
       <td className="px-6 py-4 whitespace-nowrap  text-sm font-medium">
-        <a href="#" className="text-indigo-600 hover:text-indigo-900">Edit</a>
-        <a href="#" className="ml-2 text-red-600 hover:text-red-900">Delete</a>
+        <a href="#!" className="text-indigo-600 hover:text-indigo-900">Edit</a>
+        <a href="#!" className="ml-2 text-red-600 hover:text-red-900">Delete</a>
       </td>
     </tr>
     <tr>
@@ -169,8 +169,8 @@ const Table3 = () => {
         super.man@example.com
       </td>
       <td className="px-6 py-4 whitespace-nowrap  text-sm font-medium">
-        <a href="#" className="text-indigo-600 hover:text-indigo-900">Edit</a>
-        <a href="#" className="ml-2 text-red-600 hover:text-red-900">Delete</a>
+        <a href="#!" className="text-indigo-600 hover:text-indigo-900">Edit</a>
+        <a href="#!" className="ml-2 text-red-600 hover:text-red-900">Delete</a>
       </td>
     </tr>
     {/* More rows... */}
@@ -259,10 +259,13 @@ const Table3 = () => {
                   super.man@example.com
                 </td>
                 <td className="px-6 py-4 whitespace-nowrap  text-sm font-medium">
-                  <a href="#" className="text-indigo-600 hover:text-indigo-900">
+                  <a
+                    href="#!"
+                    className="text-indigo-600 hover:text-indigo-900"
+                  >
                     Edit
                   </a>
-                  <a href="#" className="ml-2 text-red-600 hover:text-red-900">
+                  <a href="#!" className="ml-2 text-red-600 hover:text-red-900">
                     Delete
                   </a>
                 </td>
@@ -305,10 +308,13 @@ const Table3 = () => {
                   super.man@example.com
                 </td>
                 <td className="px-6 py-4 whitespace-nowrap  text-sm font-medium">
-                  <a href="#" className="text-indigo-600 hover:text-indigo-900">
+                  <a
+                    href="#!"
+                    className="text-indigo-600 hover:text-indigo-900"
+                  >
                     Edit
                   </a>
-                  <a href="#" className="ml-2 text-red-600 hover:text-red-900">
+                  <a href="#!" className="ml-2 text-red-600 hover:text-red-900">
                     Delete
                   </a>
                 </td>
@@ -351,10 +357,13 @@ const Table3 = () => {
                   super.man@example.com
                 </td>
                 <td className="px-6 py-4 whitespace-nowrap  text-sm font-medium">
-                  <a href="#" className="text-indigo-600 hover:text-indigo-900">
+                  <a
+                    href="#!"
+                    className="text-indigo-600 hover:text-indigo-900"
+                  >
                     Edit
                   </a>
-                  <a href="#" className="ml-2 text-red-600 hover:text-red-900">
+                  <a href="#!" className="ml-2 text-red-600 hover:text-red-900">
                     Delete
                   </a>
                 </td>
@@ -397,10 +406,13 @@ const Table3 = () => {
                   super.man@example.com
                 </td>
                 <td className="px-6 py-4 whitespace-nowrap  text-sm font-medium">
-                  <a href="#" className="text-indigo-600 hover:text-indigo-900">
+                  <a
+                    href="#!"
+                    className="text-indigo-600 hover:text-indigo-900"
+                  >
                     Edit
                   </a>
-                  <a href="#" className="ml-2 text-red-600 hover:text-red-900">
+                  <a href="#!" className="ml-2 text-red-600 hover:text-red-900">
                     Delete
                   </a>
                 </td>

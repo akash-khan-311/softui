@@ -3,7 +3,9 @@ import CodeBox from "../../../Shared/CodeBox/CodeBox";
 const Card11 = () => {
   return (
     <>
-      <CodeBox text={"Profile Card"} stringCode={`  <div className="w-96 mx-auto px-6 py-6  text-center bg-gray-800 rounded-lg lg:mt-0 xl:px-10">
+      <CodeBox
+        text={"Profile Card"}
+        stringCode={`  <div className="w-96 mx-auto px-6 py-6  text-center bg-gray-800 rounded-lg lg:mt-0 xl:px-10">
           <div className="space-y-4 xl:space-y-6">
             <img
               className="mx-auto rounded-full h-36 w-36"
@@ -16,7 +18,7 @@ const Card11 = () => {
                 <p className="text-indigo-300">Web Application Developer</p>
                 <div className="flex justify-center mt-5 space-x-5">
                   <a
-                    href="#"
+                    href="#!"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-block text-gray-400"
@@ -36,7 +38,7 @@ const Card11 = () => {
                     </svg>
                   </a>
                   <a
-                    href="#"
+                    href="#!"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-block text-gray-400"
@@ -56,7 +58,7 @@ const Card11 = () => {
                     </svg>
                   </a>
                   <a
-                    href="#"
+                    href="#!"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-block text-gray-400"
@@ -79,7 +81,8 @@ const Card11 = () => {
               </div>
             </div>
           </div>
-        </div>`}>
+        </div>`}
+      >
         <div className="w-96 mx-auto px-6 py-6  text-center bg-gray-800 rounded-lg lg:mt-0 xl:px-10">
           <div className="space-y-4 xl:space-y-6">
             <img
@@ -93,7 +96,7 @@ const Card11 = () => {
                 <p className="text-indigo-300">Web Application Developer</p>
                 <div className="flex justify-center mt-5 space-x-5">
                   <a
-                    href="#"
+                    href="#!"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-block text-gray-400"
@@ -113,7 +116,7 @@ const Card11 = () => {
                     </svg>
                   </a>
                   <a
-                    href="#"
+                    href="#!"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-block text-gray-400"
@@ -133,7 +136,7 @@ const Card11 = () => {
                     </svg>
                   </a>
                   <a
-                    href="#"
+                    href="#!"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-block text-gray-400"

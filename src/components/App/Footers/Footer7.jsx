@@ -21,7 +21,7 @@ const Footer7 = () => {
               <li>
                 <a
                   className="text-gray-700 transition hover:text-orange-600"
-                  href="#"
+                  href="#!"
                 >
                   {" "}
                   About{" "}
@@ -31,7 +31,7 @@ const Footer7 = () => {
               <li>
                 <a
                   className="text-gray-700 transition hover:text-orange-600"
-                  href="#"
+                  href="#!"
                 >
                   {" "}
                   Careers{" "}
@@ -41,7 +41,7 @@ const Footer7 = () => {
               <li>
                 <a
                   className="text-gray-700 transition hover:text-orange-600"
-                  href="#"
+                  href="#!"
                 >
                   {" "}
                   History{" "}
@@ -51,7 +51,7 @@ const Footer7 = () => {
               <li>
                 <a
                   className="text-gray-700 transition hover:text-orange-600"
-                  href="#"
+                  href="#!"
                 >
                   {" "}
                   Services{" "}
@@ -61,7 +61,7 @@ const Footer7 = () => {
               <li>
                 <a
                   className="text-gray-700 transition hover:text-orange-600"
-                  href="#"
+                  href="#!"
                 >
                   {" "}
                   Projects{" "}
@@ -71,7 +71,7 @@ const Footer7 = () => {
               <li>
                 <a
                   className="text-gray-700 transition hover:text-orange-600"
-                  href="#"
+                  href="#!"
                 >
                   {" "}
                   Blog{" "}
@@ -82,7 +82,7 @@ const Footer7 = () => {
             <ul className="mt-12 flex justify-center gap-6 md:gap-8">
               <li>
                 <a
-                  href="#"
+                  href="#!"
                   rel="noreferrer"
                   target="_blank"
                   className="text-gray-700 transition hover:text-orange-600"
@@ -105,7 +105,7 @@ const Footer7 = () => {
 
               <li>
                 <a
-                  href="#"
+                  href="#!"
                   rel="noreferrer"
                   target="_blank"
                   className="text-gray-700 transition hover:text-orange-600"
@@ -128,7 +128,7 @@ const Footer7 = () => {
 
               <li>
                 <a
-                  href="#"
+                  href="#!"
                   rel="noreferrer"
                   target="_blank"
                   className="text-gray-700 transition hover:text-orange-600"
@@ -147,7 +147,7 @@ const Footer7 = () => {
 
               <li>
                 <a
-                  href="#"
+                  href="#!"
                   rel="noreferrer"
                   target="_blank"
                   className="text-gray-700 transition hover:text-orange-600"
@@ -170,7 +170,7 @@ const Footer7 = () => {
 
               <li>
                 <a
-                  href="#"
+                  href="#!"
                   rel="noreferrer"
                   target="_blank"
                   className="text-gray-700 transition hover:text-orange-600"
