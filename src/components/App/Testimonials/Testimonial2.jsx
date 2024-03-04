@@ -35,7 +35,7 @@ const Testimonial2 = () => {
     </p>
     <div className="text-sm mt-5">
       <a
-        href="#"
+        href="#!"
         className="font-medium leading-none text-indigo-600 hover:text-black transition duration-500 ease-in-out"
       >
         Jonathan Reinink
@@ -77,7 +77,7 @@ const Testimonial2 = () => {
               </p>
               <div className="text-sm mt-5">
                 <a
-                  href="#"
+                  href="#!"
                   className="font-medium leading-none text-indigo-600 hover:text-black transition duration-500 ease-in-out"
                 >
                   Jonathan Reinink
