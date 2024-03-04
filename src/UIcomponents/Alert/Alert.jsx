@@ -7,6 +7,7 @@ const Alert = () => {
     return(
         <div>
              <Alert1/>
+             <Alert1/>
              <Alert2/>
              <Alert4/>
              <Alert3/>
