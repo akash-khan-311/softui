@@ -6,6 +6,7 @@ import Hero4 from "../../components/App/Hero/Hero4";
 import Hero5 from "../../components/App/Hero/Hero5";
 import Hero6 from "../../components/App/Hero/Hero6";
 import Hero7 from "../../components/App/Hero/Hero7";
+import Hero8 from "../../components/App/Hero/Hero8";
 
 
 const Hero = () => {
@@ -15,6 +16,7 @@ const Hero = () => {
         Let's Explore All Hero Components
       </h1>
       
+      <Hero8 />
       <Hero1 />
       <Hero2 />
       <Hero3 />
