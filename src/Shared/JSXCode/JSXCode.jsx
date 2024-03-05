@@ -8,8 +8,8 @@ const JSXCode = ({ stringCode }) => {
         backgroundColor: "#00212B",
         margin: "0px",
       }}
-      language="jsx"
       style={dracula}
+      language="jsx"
     >
       {stringCode}
     </SyntaxHighlighter>
