@@ -3,6 +3,9 @@ import CodeBox from '../../../Shared/CodeBox/CodeBox'
 
 const Badge6 = () => {
   return (
+
+    <CodeBox text="Badge with icon">
+
     <CodeBox
       text="Badge with icon"
       stringCode={`
