@@ -3,6 +3,10 @@ import Input10 from "../../components/App/Inputs/Input10";
 import Input11 from "../../components/App/Inputs/Input11";
 import Input12 from "../../components/App/Inputs/Input12";
 
+
+
+import Input13 from "../../components/App/Inputs/Input13";
+
 import Input2 from "../../components/App/Inputs/Input2";
 import Input3 from "../../components/App/Inputs/Input3";
 import Input4 from "../../components/App/Inputs/Input4";
@@ -34,6 +38,13 @@ const Input = () => {
       <Input9 />
       <Input10 />
       <Input11 />
+      <Input6/>
+      <Input7/>
+      <Input8/>
+      <Input9/>
+      <Input10/>
+      <Input11/>
+      <Input13/>
     </div>
   );
 };
