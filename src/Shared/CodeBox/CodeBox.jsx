@@ -69,7 +69,7 @@ const CodeBox = ({ children, stringCode, text }) => {
                         onClick={() => setIsCodeBoxOpen(!isCodeBoxOpen)}
                       />
                       <span className="text-lg text-white ml-2">
-                        Hidden Code
+                        Show Preview
                       </span>
                     </button>
                   </div>
