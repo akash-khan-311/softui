@@ -26,10 +26,11 @@ import Stats from "./UIcomponents/Stats/Stats";
 import Table from "./UIcomponents/Table/Table";
 import Testimonial from "./UIcomponents/Testimonial/Testimonial";
 import Toggle from "./UIcomponents/Toggle/Toggle";
-import ToolTip from "./UIcomponents/ToolTips/ToolTip";
+import Tooltip from './UIcomponents/ToolTips/Tooltip';
 import Skeleton from "./UIcomponents/Skeleton/Skeleton";
 import Tab from "./UIcomponents/Tab/Tab";
 import ErrorPages from "./UIcomponents/Error Pages/ErrorPages";
+
 
 const Route = createBrowserRouter([
   { path: "*", element: <NotFound /> },
@@ -62,7 +63,7 @@ const Route = createBrowserRouter([
       { path: "pagination", element: <Pagination /> },
       { path: "table", element: <Table /> },
       { path: "toggle", element: <Toggle /> },
-      { path: "ToolTip", element: <ToolTip /> },
+      { path: "Tooltip", element: <Tooltip /> },
       { path: "badge", element: <Badge /> },
       { path: "hero", element: <Hero /> },
       { path: "pagination", element: <Pagination /> },
