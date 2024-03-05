@@ -7,9 +7,6 @@ const ErrorPage4 = () => {
       <CodeBox>
 
       <section className="relative bg-gradient-to-tr from-purple-300 to-orange-900 py-[120px]">
-
-      <section className="relative z-10 bg-gradient-to-tr from-purple-300 to-orange-900 py-[120px]">
-
         <div className="container mx-auto">
           <div className="-mx-4 flex">
             <div className="w-full px-4">
