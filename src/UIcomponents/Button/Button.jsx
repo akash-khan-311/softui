@@ -6,6 +6,8 @@ import Button13 from "../../components/App/Buttons/Button13";
 import Button14 from "../../components/App/Buttons/Button14";
 import Button15 from "../../components/App/Buttons/Button15";
 import Button16 from "../../components/App/Buttons/Button16";
+import Button17 from "../../components/App/Buttons/Button17";
+import Button18 from "../../components/App/Buttons/Button18";
 
 
 import Button2 from "../../components/App/Buttons/Button2";
@@ -37,7 +39,8 @@ const Button = () => {
       <Button10 />
       <Button11 />
       <Button12 />
-      
+      <Button17/>
+      <Button18/>
     </div>
   );
 };
