@@ -3,7 +3,7 @@ import CodeBox from "../../../Shared/CodeBox/CodeBox";
 const Badge2 = () => {
   return (
     <div>
-      <CodeBox
+      <CodeBox text="Badge Counter"
         stringCode={`
  {/* Primary */}
 <button className="relative bg-blue-700 hover:bg-blue-800 duration-300 py-2 px-4 text-blue-100 rounded">Primary
