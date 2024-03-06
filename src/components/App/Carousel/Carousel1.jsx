@@ -1,133 +1,174 @@
+import { useCallback, useState } from "react";
 import CodeBox from "../../../Shared/CodeBox/CodeBox";
 
 const Carousel1 = () => {
+  const [currentIndex, setCurrentIndex] = useState(0);
+
+  const items = [
+    "https://i.ibb.co/yYC5N25/image-4.jpg",
+    "https://i.ibb.co/YcBB3yZ/image-1.jpg",
+    "https://i.ibb.co/N74MjzM/image-2.jpg",
+    "https://i.ibb.co/d53Lbp8/image-3.jpg",
+  ];
+
+  const nextSlide = useCallback(() => {
+    setCurrentIndex((prevIndex) =>
+      prevIndex === items.length - 1 ? 0 : prevIndex + 1
+    );
+  }, [items.length]);
+
+  const prevSlide = () => {
+    setCurrentIndex((prevIndex) =>
+      prevIndex === 0 ? items.length - 1 : prevIndex - 1
+    );
+  };
+
   return (
-    <CodeBox>
-      <div className="bg-white font-sans leading-normal tracking-normal">
-        <div className="carousel relative shadow-2xl">
-          <div className="carousel-inner relative overflow-hidden w-full">
-            {/* Slide 1 */}
-            <input
-              className="carousel-open"
-              type="radio"
-              id="carousel-1"
-              name="carousel"
-              aria-hidden="true"
-              hidden=""
-              checked="checked"
+    <>
+      <CodeBox
+        text={"Basic Slide Carousel"}
+        stringCode={`import { useCallback, useState } from "react";
+  const items = [
+    "https://i.ibb.co/yYC5N25/image-4.jpg",
+    "https://i.ibb.co/YcBB3yZ/image-1.jpg",
+    "https://i.ibb.co/N74MjzM/image-2.jpg",
+    "https://i.ibb.co/d53Lbp8/image-3.jpg",
+  ];
+  const Carousel = () => {
+    const [currentIndex, setCurrentIndex] = useState(0);
+    const nextSlide = useCallback(() => {
+      setCurrentIndex((prevIndex) =>
+        prevIndex === items.length - 1 ? 0 : prevIndex + 1
+      );
+    }, [items.length]);
+  
+    const prevSlide = () => {
+      setCurrentIndex((prevIndex) =>
+        prevIndex === 0 ? items.length - 1 : prevIndex - 1
+      );
+    };
+    return (
+      <div className="relative">
+      <button
+        onClick={prevSlide}
+        className="absolute top-1/2 left-3 z-50 hover:bg-black/50 p-2 rounded-full w-10 h-10 md:w-12 md:h-12 flex items-center justify-center bg-white bg-opacity-20 text-white"
+        aria-label="Previous Slide"
+      >
+        <svg
+          className="h-6 w-6"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+          fill="none"
+        >
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth={2}
+            d="M15 19l-7-7 7-7"
+          />
+        </svg>
+      </button>
+      <button
+        onClick={nextSlide}
+        className="absolute top-1/2 right-3 z-50 hover:bg-black/50 p-2 rounded-full w-10 h-10 md:w-12 md:h-12 flex items-center justify-center bg-white bg-opacity-20 text-white"
+        aria-label="Next Slide"
+      >
+        <svg
+          className="h-6 w-6"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+          fill="none"
+        >
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth={2}
+            d="M9 5l7 7-7 7"
+          />
+        </svg>
+      </button>
+      {/* You Can change the aspect ratio relevant to your Screen Size */}
+      <div className="overflow-hidden lg:h-screen w-full" style={{ aspectRatio: "16/9" }}>
+        <div
+          className="flex w-full transition-transform duration-300"
+          style={{ transform: \`translateX(-\${currentIndex * 100}%)\` }}
+        >
+          {items.map((slide, i) => (
+            <img
+              key={i}
+              src={slide}
+              alt={\`Slider - \${i + 1}\`}
+              className="w-full h-full object-cover"
             />
-            <div
-              className="carousel-item absolute opacity-0"
-              style={{ height: "50vh" }}
-            >
-              <div className="block h-full w-full bg-indigo-500 text-white text-5xl text-center">
-                Slide 1
-              </div>
-            </div>
-            <label
-              htmlFor="carousel-3"
-              className="prev control-1 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto"
-            >
-              ‹
-            </label>
-            <label
-              htmlFor="carousel-2"
-              className="next control-1 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 right-0 my-auto"
-            >
-              ›
-            </label>
-
-            {/* Slide 2 */}
-            <input
-              className="carousel-open"
-              type="radio"
-              id="carousel-2"
-              name="carousel"
-              aria-hidden="true"
-              hidden=""
-            />
-            <div
-              className="carousel-item absolute opacity-0"
-              style={{ height: "50vh" }}
-            >
-              <div className="block h-full w-full bg-orange-500 text-white text-5xl text-center">
-                Slide 2
-              </div>
-            </div>
-            <label
-              htmlFor="carousel-1"
-              className="prev control-2 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto"
-            >
-              ‹
-            </label>
-            <label
-              htmlFor="carousel-3"
-              className="next control-2 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 right-0 my-auto"
-            >
-              ›
-            </label>
-
-            {/* Slide 3 */}
-            <input
-              className="carousel-open"
-              type="radio"
-              id="carousel-3"
-              name="carousel"
-              aria-hidden="true"
-              hidden=""
-            />
-            <div
-              className="carousel-item absolute opacity-0"
-              style={{ height: "50vh" }}
-            >
-              <div className="block h-full w-full bg-green-500 text-white text-5xl text-center">
-                Slide 3
-              </div>
-            </div>
-            <label
-              htmlFor="carousel-2"
-              className="prev control-3 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto"
-            >
-              ‹
-            </label>
-            <label
-              htmlFor="carousel-1"
-              className="next control-3 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 right-0 my-auto"
-            >
-              ›
-            </label>
-
-            {/* Add additional indicators for each slide */}
-            <ol className="carousel-indicators">
-              <li className="inline-block mr-3">
-                <label
-                  htmlFor="carousel-1"
-                  className="carousel-bullet cursor-pointer block text-4xl text-white hover:text-blue-700"
-                >
-                  •
-                </label>
-              </li>
-              <li className="inline-block mr-3">
-                <label
-                  htmlFor="carousel-2"
-                  className="carousel-bullet cursor-pointer block text-4xl text-white hover:text-blue-700"
-                >
-                  •
-                </label>
-              </li>
-              <li className="inline-block mr-3">
-                <label
-                  htmlFor="carousel-3"
-                  className="carousel-bullet cursor-pointer block text-4xl text-white hover:text-blue-700"
-                >
-                  •
-                </label>
-              </li>
-            </ol>
-          </div>
+          ))}
         </div>
       </div>
-    </CodeBox>
+    </div>
+    )
+  }
+  export default Carousel;
+`}
+      >
+        <div className="relative">
+          <button
+            onClick={prevSlide}
+            className="absolute top-1/2 left-3 z-50 hover:bg-black/50 p-2 rounded-full w-10 h-10 md:w-12 md:h-12 flex items-center justify-center bg-white bg-opacity-20 text-white"
+            aria-label="Previous Slide"
+          >
+            <svg
+              className="h-6 w-6"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              fill="none"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M15 19l-7-7 7-7"
+              />
+            </svg>
+          </button>
+          <button
+            onClick={nextSlide}
+            className="absolute top-1/2 right-3 z-50 hover:bg-black/50 p-2 rounded-full w-10 h-10 md:w-12 md:h-12 flex items-center justify-center bg-white bg-opacity-20 text-white"
+            aria-label="Next Slide"
+          >
+            <svg
+              className="h-6 w-6"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              fill="none"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M9 5l7 7-7 7"
+              />
+            </svg>
+          </button>
+          <div
+            className="overflow-hidden w-full"
+            style={{ aspectRatio: "23/11" }}
+          >
+            <div
+              className="flex w-full transition-transform duration-300"
+              style={{ transform: `translateX(-${currentIndex * 100}%)` }}
+            >
+              {items.map((slide, i) => (
+                <img
+                  key={i}
+                  src={slide}
+                  alt={`Slider - ${i + 1}`}
+                  className="w-full h-full  bg-contain"
+                />
+              ))}
+            </div>
+          </div>
+        </div>
+      </CodeBox>
+    </>
   );
 };
 
