@@ -27,7 +27,6 @@ const CodeBox = ({ children, stringCode, text }) => {
       setIsCopied(false);
     }, 1500);
   };
-  console.log(selectedDevice);
 
   return (
     <>
