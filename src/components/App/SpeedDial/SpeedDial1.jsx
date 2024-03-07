@@ -64,13 +64,13 @@ export default SpeedDial;
           <div className="h-[300px] relative">
             <div className="group flex flex-col items-center justify-center w-max mx-auto absolute top-0 left-[50%] -translate-x-1/2">
                 {/* + icon  */}
-                <div className="flex justify-center w-16 h-16 bg-gradient-to-tr from-pink-600 to-pink-900 rounded-full items-center group-hover:rotate-[135deg] hover:bg-pink-400/80 duration-500">
+                <div className="flex justify-center w-16 h-16 bg-gradient-to-tr from-pink-600 to-pink-900 rounded-full items-center group-hover:rotate-[136deg] hover:bg-pink-400/80 duration-500">
                     <svg width={30} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M4 12H20M12 4V20" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                     </svg>
                 </div>
                 {/* icon container  */}
-                <div className="space-y-4 duration-500 h-0 group-hover:my-4 group-hover:h-full ">
+                <div className="space-y-4 duration-500 h-0 my-4  ">
                     {/* Icon Map */}
                     {svgs?.map((svg, idx) => (
                         <div key={idx} className={`w-10 h-10 rounded-full scale-0 group-hover:scale-100 duration-300 shadow-md opacity-0 group-hover:opacity-100 ${idx === 0 ? 'delay-[400ms] group-hover:delay-100' : idx === 1 ? 'delay-300 group-hover:delay-200' : idx === 2 ? 'delay-200 group-hover:delay-300' : idx === 3 ? 'delay-100 group-hover:delay-[400ms]' : 'delay-[400ms] group-hover:delay-100'}`}>
