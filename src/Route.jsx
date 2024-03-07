@@ -30,6 +30,7 @@ import Tooltip from './UIcomponents/ToolTips/Tooltip';
 import Skeleton from "./UIcomponents/Skeleton/Skeleton";
 import Tab from "./UIcomponents/Tab/Tab";
 import ErrorPages from "./UIcomponents/Error Pages/ErrorPages";
+import SpeedDial from "./UIcomponents/SpeedDial/SpeedDial";
 
 
 const Route = createBrowserRouter([
@@ -75,7 +76,8 @@ const Route = createBrowserRouter([
       { path: "cta", element: <CTA /> },
       {path:'skeleton', element: <Skeleton/>},
       {path:'tab', element: <Tab/>},
-      {path: 'error pages', element: <ErrorPages/>}
+      {path: 'error pages', element: <ErrorPages/>},
+      {path: 'speeddial', element: <SpeedDial/>}
     ],
   },
 ]);
