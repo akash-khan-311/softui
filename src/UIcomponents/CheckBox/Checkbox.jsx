@@ -3,6 +3,7 @@ import Checkbox2 from "../../components/App/Checkbox/Checkbox2";
 import Checkbox3 from "../../components/App/Checkbox/Checkbox3";
 import Checkbox4 from "../../components/App/Checkbox/Checkbox4";
 import Checkbox5 from "../../components/App/Checkbox/Checkbox5";
+import Checkbox6 from "../../components/App/Checkbox/Checkbox6";
 
 
 
@@ -15,6 +16,7 @@ const Checkbox = () => {
     <Checkbox3/>
     <Checkbox4/>
     <Checkbox5/>
+    <Checkbox6/>
     
     
   </div>
