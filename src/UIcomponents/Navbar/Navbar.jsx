@@ -6,6 +6,7 @@ import Navbar5 from "../../components/App/Navbar/Navbar5";
 import Navbar6 from "../../components/App/Navbar/Navbar6";
 import Navbar7 from "../../components/App/Navbar/Navbar7";
 import Navbar8 from "../../components/App/Navbar/Navbar8";
+import Navbar9 from "../../components/App/Navbar/Navbar9";
 
 const Navbar = () => {
   return (
@@ -21,6 +22,7 @@ const Navbar = () => {
       {/* Dropdown Navbar */}
       <Navbar5 />
       {/* Responsive Navbar */}
+      <Navbar9 />
       <Navbar6 />
       {/*  */}
       <Navbar7/>
