@@ -3,6 +3,7 @@ import Skeleton2 from "../../components/App/Skeleton/Skeleton2";
 import Skeleton3 from "../../components/App/Skeleton/Skeleton3";
 import Skeleton4 from "../../components/App/Skeleton/Skeleton4";
 import Skeleton5 from "../../components/App/Skeleton/Skeleton5";
+import Skeleton6 from "../../components/App/Skeleton/Skeleton6";
 
 const Skeleton = () => {
     return(
@@ -13,6 +14,7 @@ const Skeleton = () => {
              <Skeleton3/>
              <Skeleton4/>
              <Skeleton5/>
+             <Skeleton6/>
         </>
     )
 }
