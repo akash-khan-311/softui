@@ -4,6 +4,7 @@ import Form10 from "../../components/App/Forms/Form10";
 import Form11 from "../../components/App/Forms/Form11";
 import Form12 from "../../components/App/Forms/Form12";
 import Form13 from "../../components/App/Forms/Form13";
+import Form14 from "../../components/App/Forms/Form14";
 import Form2 from "../../components/App/Forms/Form2";
 import Form3 from "../../components/App/Forms/Form3";
 import Form4 from "../../components/App/Forms/Form4";
@@ -40,6 +41,7 @@ const Form = () => {
       {/* Shoping Cart Form */}
       <Form10/>
       <Form11/>
+      <Form14/>
     </div>
   );
 };
