@@ -38,12 +38,6 @@ const Input = () => {
       <Input9 />
       <Input10 />
       <Input11 />
-      <Input6/>
-      <Input7/>
-      <Input8/>
-      <Input9/>
-      <Input10/>
-      <Input11/>
       <Input13/>
       
     </div>
