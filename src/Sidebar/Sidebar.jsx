@@ -17,6 +17,7 @@ const componentsItems = [
   "Carousel",
   "Checkbox",
   "Drawer",
+  "Dropdown",
   "Error Pages",
   "Form",
   "Footer",

@@ -31,6 +31,7 @@ import Skeleton from "./UIcomponents/Skeleton/Skeleton";
 import Tab from "./UIcomponents/Tab/Tab";
 import ErrorPages from "./UIcomponents/Error Pages/ErrorPages";
 import SpeedDial from "./UIcomponents/SpeedDial/SpeedDial";
+import Dropdown from "./UIcomponents/Dropdown";
 
 
 const Route = createBrowserRouter([
@@ -77,7 +78,8 @@ const Route = createBrowserRouter([
       {path:'skeleton', element: <Skeleton/>},
       {path:'tab', element: <Tab/>},
       {path: 'error pages', element: <ErrorPages/>},
-      {path: 'speeddial', element: <SpeedDial/>}
+      {path: 'speeddial', element: <SpeedDial/>},
+      {path: 'dropdown', element: <Dropdown/>}
     ],
   },
 ]);
