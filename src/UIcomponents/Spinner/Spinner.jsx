@@ -1,5 +1,5 @@
 import Spinner1 from "../../components/App/Spinner/Spinner1";
-
+import Spinner10 from "../../components/App/Spinner/Spinner10";
 
 import Spinner2 from "../../components/App/Spinner/Spinner2";
 import Spinner3 from "../../components/App/Spinner/Spinner3";
@@ -22,7 +22,7 @@ const Spinner = () => {
       <Spinner7 />
       <Spinner8 />
       <Spinner9 />
-      
+      <Spinner10 />
     </div>
   );
 };
