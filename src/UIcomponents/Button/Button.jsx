@@ -10,6 +10,7 @@ import Button17 from "../../components/App/Buttons/Button17";
 import Button18 from "../../components/App/Buttons/Button18";
 import Button19 from "../../components/App/Buttons/Button19";
 import Button2 from "../../components/App/Buttons/Button2";
+import Button20 from "../../components/App/Buttons/Button20";
 import Button3 from "../../components/App/Buttons/Button3";
 import Button4 from "../../components/App/Buttons/Button4";
 import Button5 from "../../components/App/Buttons/Button5";
@@ -25,6 +26,7 @@ const Button = () => {
       <Button1 />
       <Button2 />
       <Button13 />
+      <Button20/>
       <Button15 />
       <Button16 />
       <Button14 />
