@@ -20,7 +20,7 @@ const Dropdown = () => {
                 Open Menu
                 {/* Dropdown arrow */}
                 <svg
-                  className={\`w-4 h-4 ml-2 transition-transform duration-300 ${isOpen && "rotate-180"}  -mr-1\`}
+                  className={\`w-4 h-4 ml-2 transition-transform duration-300 \${isOpen && "rotate-180"}  -mr-1\`}
                   xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
                 >
                   <path fillRule="evenodd" d="M10 12l-5-5h10l-5 5z" />
@@ -29,7 +29,7 @@ const Dropdown = () => {
 
               {/* Dropdown menu */}
               <div
-                className={\`absolute  left-0 min-w-40 mt-1 origin-top-left bg-white divide-y divide-gray-100 transition-all -z-10 ease-in-out duration-300 ${isOpen ? " translate-y-0" : "-translate-y-40 "} shadow-lg \`}
+                className={\`absolute  left-0 min-w-40 mt-1 origin-top-left bg-white divide-y divide-gray-100 transition-all -z-10 ease-in-out duration-300 \${isOpen ? " translate-y-0" : "-translate-y-40 "} shadow-lg \`}
               >
                 <div className="py-1">
                   <a
