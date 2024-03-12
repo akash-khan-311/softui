@@ -62,7 +62,7 @@ const Sidebar = () => {
   return (
     <>
       <div className="menu z-20">
-        <button
+      <button
           onClick={handleToggle}
           className="mobile-menu-button p-4 focus:outline-none  text-orange-600 fixed top-16  xl:hidden right-1"
         >
@@ -74,7 +74,7 @@ const Sidebar = () => {
         </button>
       </div>
       <div
-        className={` components-sidebar  backdrop-blur-xl bg-white/10 fixed top-[74px] z-[20] ${
+        className={` components-sidebar backdrop-blur-xl bg-white/10 fixed top-[74px] z-[20] ${
           isActive && "-translate-x-full"
         }  xl:translate-x-0 xl:w-[240px]  select-none px-2 block transition-all overflow-y-scroll`}
       >
