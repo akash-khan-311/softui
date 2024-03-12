@@ -45,7 +45,7 @@ const ErrorPage5 = () => {
           </p>
           <a
             href="#Home"
-            className="bg-[#42a5f6] text-gray-200 hover:bg-[#3892db] py-2 px-6 rounded-full text-lg font-semibold transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-md hover:shadow-white"
+            className="bg-[#42a5f6] text-gray-200 hover:bg-[#368ed6] py-2 px-6 rounded-full text-lg font-semibold transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-md hover:shadow-white"
           >
             Proceed
           </a>
