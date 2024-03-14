@@ -41,7 +41,7 @@ const ErrorPage5 = () => {
           <span className="text-[#ff0000] text-7xl">404 !</span> Sorry this page doesn't exist 
           </h1>
           <p className="text-lg text- mb-8">
-            Go back to the home page
+            Go back to the home page!
           </p>
           <a
             href="#Home"
