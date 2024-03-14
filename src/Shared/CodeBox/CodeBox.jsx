@@ -34,7 +34,7 @@ const CodeBox = ({ children, stringCode, text }) => {
         <div className={`w-full rounded-md h-fit  px-4 py-1 my-10 `}>
           <h2 className="text-white text-3xl font-semibold mb-10">{text}</h2>
 
-          <div className="flex gap-2 items-center sm:justify-between justify-end rounded-t-lg border border-gray-50 shadow-lg bg-gradient-to-br from-cyan-900 to-purple-900 py-5">
+          <div className="flex gap-2 items-center sm:justify-between justify-end rounded-t-lg border border-gray-50 shadow-lg bg-[#bbdfff] py-5">
             <div className="hidden sm:flex items-center gap-x-5 text-white text-lg ml-2">
               {devices.map((device, i) => (
                 <button
@@ -67,7 +67,7 @@ const CodeBox = ({ children, stringCode, text }) => {
                         className="text-2xl text-white cursor-pointer"
                         onClick={() => setIsCodeBoxOpen(!isCodeBoxOpen)}
                       />
-                      <span className="text-lg text-white ml-2">
+                      <span className="text-lg text-[#656D76] ml-2">
                         Show Preview
                       </span>
                     </button>
@@ -82,7 +82,7 @@ const CodeBox = ({ children, stringCode, text }) => {
                         className="text-2xl text-white cursor-pointer ml-2"
                         onClick={() => setIsCodeBoxOpen(!isCodeBoxOpen)}
                       />
-                      <span className="text-lg text-white ml-2">Show Code</span>
+                      <span className="text-lg text-[#656D76] ml-2">Show Code</span>
                     </button>
                   </div>
                 )}

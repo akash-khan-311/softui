@@ -74,7 +74,7 @@ const Sidebar = () => {
         </button>
       </div>
       <div
-        className={` components-sidebar backdrop-blur-xl bg-white/10 fixed top-[74px] z-[20] ${
+        className={` components-sidebar backdrop-blur-xl bg-white/10 fixed top-[70px] z-[20] ${
           isActive && "-translate-x-full"
         }  xl:translate-x-0 xl:w-[240px]  select-none px-2 block transition-all overflow-y-scroll`}
       >
@@ -83,7 +83,7 @@ const Sidebar = () => {
           <div className="flex flex-col px-4 pt-10  text-lg text-white ">
             <div onClick={handleDocNavOpen} className="text-2xl">
               <div className="flex justify-between items-center border px-4 py-2 rounded-md ">
-                <div className="flex items-center ">
+                <div className="flex items-center cursor-pointer">
                   <FaAngleDown
                     className={`transition-all text-sm mr-3 duration-300 ease-in-out text-yellow-900  ${
                       docOpen ? "rotate-180" : "rotate-0"

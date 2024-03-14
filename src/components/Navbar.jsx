@@ -66,9 +66,8 @@ const Navbar = () => {
     <nav className="mx-auto fixed top-0 py-2 w-full border-b-2 navbar border-orange-400  z-10">
       <div className="flex items-center justify-between max-w-8xl mx-auto px-5  ">
         <Link to={"/"} className="flex ">
-          <img className="w-14" src={logo} alt="soft ui" />
-
-          <h2 className=" text-5xl font-bold logo-text">Soft UI</h2>
+          <img className="w-10" src={logo} alt="soft ui" />
+          <h2 className=" text-3xl font-bold logo-text">Soft UI</h2>
         </Link>
         <div className="hidden lg:block">
           <NavList />
