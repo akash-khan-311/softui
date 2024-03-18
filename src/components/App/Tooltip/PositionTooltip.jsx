@@ -30,7 +30,7 @@ const PositionTooltip = () => {
 
     //tooltip as child
     <div id="tooltip-animation" role="tooltip" className="absolute invisible group-hover:visible opacity-0 group-hover:opacity-100 whitespace-nowrap inline-block px-3 py-2 text-sm font-medium text-white transition-all duration-300 bg-gray-700 rounded-lg shadow-sm tooltip dark:bg-gray-700 transform right-[-100px]">
-      <span className="absolute inner-block border-[7px] top-1/2 -translate-y-1/2 left-[-6px] border-r-transparent border-l-0 border-b-transparent border-t-transparent border-r-gray-700 rotate-(-90)"></span>
+      <span className="absolute inner-block border-[7px] top-1/2 -translate-y-1/2 left-[-6px] border-r-transparent border-l-0 border-b-transparent border-r-gray-700 rotate-(-90)"></span>
       Right Tooltip
     </div>
   </button>
@@ -54,7 +54,7 @@ const PositionTooltip = () => {
       Top Tooltip
     </span>
     <div id="tooltip-animation" role="tooltip" className="absolute invisible group-hover:visible opacity-0 group-hover:opacity-100 whitespace-nowrap inline-block px-3 py-2 text-sm font-medium text-white transition-all duration-300 bg-gray-700 rounded-lg shadow-sm tooltip dark:bg-gray-700 transform -translate-y-1 left-[-100px]" >
-      <span className="absolute inner-block border-[7px] top-1/2 -translate-y-1/2 right-[-6px] border-r-transparent border-l-0 border-b-transparent border-t-transparent border-r-gray-700 rotate-180" ></span>
+      <span className="absolute inner-block border-[7px] top-1/2 -translate-y-1/2 right-[-6px] border-l-0 border-b-transparent border-t-transparent border-r-gray-700 rotate-180" ></span>
         Tooltip text
     </div>
   </button>
