@@ -15,7 +15,7 @@ const LeftToolTip = () => {
       >
         <span
           className="absolute inner-block border-[7px] top-1/2
-                -translate-y-1/2 right-[-6px] border-r-transparent
+                -translate-y-1/2 right-[-6px] 
                 border-l-0 border-b-transparent border-t-transparent
                 border-r-gray-700 rotate-180"
         ></span>

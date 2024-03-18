@@ -15,9 +15,9 @@ const RightToolTip = () => {
       >
         <span
           className="absolute z-[100] inner-block border-[7px] top-1/2
-                -translate-y-1/2 left-[-6px] border-r-transparent
+                -translate-y-1/2 left-[-6px] 
                 border-l-0 border-b-transparent border-t-transparent
-                border-r-gray-700 rotate-(-90)"
+                border-r-gray-700"
         ></span>
         Tooltip text
       </div>
