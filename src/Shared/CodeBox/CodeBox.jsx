@@ -34,7 +34,7 @@ const CodeBox = ({ children, stringCode, text }) => {
         <div className={`w-full rounded-md h-fit  px-4 py-1 my-10 `}>
           <h2 className="text-white text-3xl font-semibold mb-6">{text}</h2>
 
-          <div className="flex gap-2 items-center sm:justify-between justify-end rounded-t-sm border border-gray-50 shadow-lg bg-[#bbdfff] py-5">
+          <div className="flex gap-2 items-center sm:justify-between justify-end rounded-t-sm border border-gray-50 shadow-lg bg-[#0e2131] py-3">
             <div className="hidden sm:flex items-center gap-x-5 text-white text-lg ml-2">
               {devices.map((device, i) => (
                 <button
