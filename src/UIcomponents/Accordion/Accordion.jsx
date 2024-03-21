@@ -12,6 +12,8 @@ const Accordion = () => {
       <Accordion2 />
       <Accordion3 />
       <Accordion4 />
+      <div>
+      </div>
     </>
   );
 };
