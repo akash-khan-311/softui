@@ -1,9 +1,9 @@
-import SpeedDial1 from "../../components/App/SpeedDial/SpeedDial1";
+
 
 const SpeedDial = () => {
     return(
         <>
-             <SpeedDial1/>
+             <h1 className="text-3xl md:text-4xl lg:text-5xl logo-text text-center min-h-screen flex items-center justify-center font-bold ">Content Comming Soon... </h1>
         </>
     )
 }
