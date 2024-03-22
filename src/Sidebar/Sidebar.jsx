@@ -73,8 +73,7 @@ const Sidebar = () => {
           )}
         </button>
       </div>
-      <div
-        className={` components-sidebar backdrop-blur-xl bg-white/10 fixed top-[59px] z-[20] ${
+      <div className={` components-sidebar backdrop-blur-xl bg-white/10 fixed top-[59px] z-[20] ${
           isActive && "-translate-x-full"
         }  xl:translate-x-0 xl:w-[240px]  select-none px-2 block transition-all overflow-y-scroll`}
       >
