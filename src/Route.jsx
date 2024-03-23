@@ -32,6 +32,7 @@ import Tab from "./UIcomponents/Tab/Tab";
 import ErrorPages from "./UIcomponents/Error Pages/ErrorPages";
 import SpeedDial from "./UIcomponents/SpeedDial/SpeedDial";
 import Dropdown from "./UIcomponents/Dropdown/Dropdown";
+import Slider from "./UIcomponents/Range-Slider/Slider";
 
 
 
@@ -80,7 +81,8 @@ const Route = createBrowserRouter([
       {path:'tab', element: <Tab/>},
       {path: 'error pages', element: <ErrorPages/>},
       {path: 'speeddial', element: <SpeedDial/>},
-      {path: 'dropdown', element: <Dropdown/>}
+      {path: 'dropdown', element: <Dropdown/>},
+      {path: 'range-slider', element: <Slider/>}
     ],
   },
 ]);
