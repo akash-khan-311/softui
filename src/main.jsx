@@ -1,4 +1,6 @@
 import React from "react";
+import { SpeedInsights } from "@vercel/speed-insights/react"
+
 import ReactDOM from "react-dom/client";
 
 import { ThemeProvider } from "@material-tailwind/react";
@@ -12,6 +14,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <ThemeProvider>
       <ScrollToTop/>
       <RouterProvider router={Route} />
+      <SpeedInsights/>
     </ThemeProvider>
   </React.StrictMode>
 );
