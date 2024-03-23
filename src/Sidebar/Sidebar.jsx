@@ -28,7 +28,7 @@ const componentsItems = [
   "Pagination",
   "Progress",
   "Skeleton",
-  "Slider",
+  "Range-Slider",
   "Spinner",
   "SpeedDial",
   "Stats",
