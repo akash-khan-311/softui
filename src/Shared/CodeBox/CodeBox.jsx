@@ -33,8 +33,7 @@ const CodeBox = ({ children, stringCode, text }) => {
       <div className={`w-full rounded-md h-fit  px-4 py-2 `}>
         <div className={`w-full rounded-md h-fit  px-4 py-1 my-10 `}>
           <h2 className="text-white text-3xl font-semibold mb-6">{text}</h2>
-
-          <div className="flex gap-2 items-center sm:justify-between justify-end rounded-t-sm border border-gray-50 shadow-lg bg-gray-500 py-5">
+          <div className="flex gap-2 items-center sm:justify-between justify-end rounded-t-sm border border-gray-50 bg-blue-gray-900 shadow-lg py-1">
             <div className="hidden sm:flex items-center gap-x-5 text-white text-lg ml-2">
               {devices.map((device, i) => (
                 <button
@@ -43,11 +42,9 @@ const CodeBox = ({ children, stringCode, text }) => {
                   onClick={() => setSelectedDevice(device.value)}
                 >
                   <span
-                    className={`${device.label === "sm" && "text-sm"} ${
-                      device.label === "md" && "text-xl"
-                    } ${device.label === "lg" && "text-2xl"} ${
-                      device.label === "xl" && "text-3xl"
-                    }`}
+                    className={`${device.label === "sm" && "text-sm"} ${device.label === "md" && "text-xl"
+                      } ${device.label === "lg" && "text-2xl"} ${device.label === "xl" && "text-3xl"
+                      }`}
                   >
                     {device.icon}
                   </span>
